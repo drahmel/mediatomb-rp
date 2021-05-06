@@ -1,0 +1,28 @@
+md5.o: ../src/md5/md5.c /usr/include/stdc-predef.h ../src/md5/md5.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
+ /usr/include/xlocale.h
+
+/usr/include/stdc-predef.h:
+
+../src/md5/md5.h:
+
+/usr/include/string.h:
+
+/usr/include/features.h:
+
+/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h:
+
+/usr/include/xlocale.h:
