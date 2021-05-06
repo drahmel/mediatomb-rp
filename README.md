@@ -53,6 +53,12 @@ db-autocreate         : yes
 ../src/hash/dbo_hash.h:165:28: error: ‘search’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
          bool found = search(key, &slot);
 
+Forced my way past error with permissive mode:
+
+` make CFLAGS='-fpermissive' CXXFLAGS='-fpermissive'`
+
+Compile completed, but don't know if it works.
+
 
 
 
