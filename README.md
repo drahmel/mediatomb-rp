@@ -1,10 +1,29 @@
 # mediatomb-rp
 Mediatomb DLNA server running on Raspberry Pi
 
+This is my attempt to get MT running on the Raspeberry Pi. I've been running MT for years on Arch Linux for my video and audio streaming needs, but my box finally died and I'd like to run it on a more current platform. MediaTomb still seems better than the alternatives that I've found on RP since I don't need Plex.
 
+
+It doesn't work yet. I'll clean up the readme as I get things working.
+
+
+
+# Steps for debugging
+
+These are the steps I'm following to try to get things working.
+
+```
 automake
 ./configure
+```
 
+# Installs
+
+
+apt install libsqlite3-dev
+apt install libsqlite3
+
+## First successful configure run
 
 CONFIGURATION SUMMARY ----
 
@@ -26,5 +45,6 @@ YouTube               : missing
 libextractor          : disabled
 db-autocreate         : yes
 
+## Second
 
 apt install ffmpeg
