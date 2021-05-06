@@ -19,9 +19,11 @@ automake
 
 # Installs
 
-
+apt install sqlite3
 apt install libsqlite3-dev
 apt install libsqlite3
+apt install expat
+apt install ffmpeg
 
 ## First successful configure run
 
@@ -47,4 +49,3 @@ db-autocreate         : yes
 
 ## Second
 
-apt install ffmpeg
