@@ -27,6 +27,8 @@ apt install ffmpeg
 
 ## First successful configure run
 
+`./configure`
+
 CONFIGURATION SUMMARY ----
 
 sqlite3               : yes
@@ -55,11 +57,14 @@ db-autocreate         : yes
 
 Forced my way past error with permissive mode:
 
-` make CFLAGS='-fpermissive' CXXFLAGS='-fpermissive'`
+`make CFLAGS='-fpermissive' CXXFLAGS='-fpermissive'`
 
 Compile completed, but don't know if it works.
 
+
 ## First run
+
+`make install`
 
 Mediatomb successfully executed!
 
@@ -93,6 +98,9 @@ MediaTomb is free software, covered by the GNU General Public License version 2
 
 Accessed the Web GUI successfully.
 
+Streamed successfully from Android BubblePNP
+
+TODO: Fix compile errors and make sure optional modules compile
 
 
 
