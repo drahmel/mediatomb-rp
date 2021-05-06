@@ -47,5 +47,12 @@ YouTube               : missing
 libextractor          : disabled
 db-autocreate         : yes
 
-## Second
+## First make error
+
+../src/autoscan_inotify.cc:229:48:   required from here
+../src/hash/dbo_hash.h:165:28: error: ‘search’ was not declared in this scope, and no declarations were found by argument-dependent lookup at the point of instantiation [-fpermissive]
+         bool found = search(key, &slot);
+
+
+
 
