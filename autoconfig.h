@@ -29,7 +29,7 @@
 /* #undef CLOSEDIR_VOID */
 
 /* compile option summary */
-#define COMPILE_INFO "\thost:\t\t\tarmv7l-unknown-linux-gnueabi\n\tsqlite3:\t\tyes\n\tmysql:\t\t\tyes\n\tlibjs:\t\t\tmissing\n\tlibmagic:\t\tyes\n\tinotify:\t\tyes\n\tlibexif:\t\tyes\n\tid3lib:\t\t\tdisabled\n\ttaglib:\t\t\tyes\n\tffmpeg\t\t\tdisabled\n\tlibmp4v2:\t\tdisabled\n\texternal transcoding:\tyes\n\tcurl:\t\t\tyes\n\tYouTube:\t\tyes\n\tlibextractor\t\t\n\tdb-autocreate:\t\tyes\n\tdebug log:\t\tyes\n\tprotocol info extension:yes\n\tffmpegthumbnailer:\tdisabled\n\tlastfmlib:\t\tmissing\n\tdata directory:\t\t/usr/local/share/mediatomb"
+#define COMPILE_INFO "\thost:\t\t\tarmv7l-unknown-linux-gnueabi\n\tsqlite3:\t\tyes\n\tmysql:\t\t\tyes\n\tlibjs:\t\t\tmissing\n\tlibmagic:\t\tyes\n\tinotify:\t\tyes\n\tlibexif:\t\tyes\n\tid3lib:\t\t\tdisabled\n\ttaglib:\t\t\tyes\n\tffmpeg\t\t\tdisabled\n\tlibmp4v2:\t\tyes\n\texternal transcoding:\tyes\n\tcurl:\t\t\tyes\n\tYouTube:\t\tyes\n\tlibextractor\t\t\n\tdb-autocreate:\t\tyes\n\tdebug log:\t\tyes\n\tprotocol info extension:yes\n\tffmpegthumbnailer:\tdisabled\n\tlastfmlib:\t\tmissing\n\tdata directory:\t\t/usr/local/share/mediatomb"
 
 /* Define to one of `_getb67', `GETB67', `getb67' for Cray-2 and Cray-YMP
    systems. This function is required for `alloca.c' support on those systems.
@@ -213,7 +213,7 @@
 #define HAVE_LIBMAGIC 1
 
 /* libmp4v2 library presence */
-/* #undef HAVE_LIBMP4V2 */
+#define HAVE_LIBMP4V2 1
 
 /* Define to 1 if you have the `nsl' library (-lnsl). */
 /* #undef HAVE_LIBNSL */
@@ -268,7 +268,7 @@
 /* #undef HAVE_MP4_GET_METADATA_COVER_ART_COUNT */
 
 /* this version of libmp4 has MP4GetTrackAudioChannels support */
-/* #undef HAVE_MP4_GET_TRACK_AUDIO_CHANNELS */
+#define HAVE_MP4_GET_TRACK_AUDIO_CHANNELS 1
 
 /* MySQL library presence */
 #define HAVE_MYSQL 1
@@ -497,7 +497,7 @@
 /* #undef JS_THREADSAFE */
 
 /* $MP4_HEADER.h */
-/* #undef LIBMP4V2_INCLUDE */
+#define LIBMP4V2_INCLUDE <mp4v2/mp4v2.h>
 
 /* if defined compile with log output */
 #define LOG_ENABLED 1

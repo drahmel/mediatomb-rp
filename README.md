@@ -160,6 +160,16 @@ make
 make install
 ```
 
+## Fourth compile
+
+Applied Peter Asplund's fix for libmp4v2-handling I found here: https://bugs.gentoo.org/410235 and module now compiles.
+
+```
+./configure --disable-ffmpeg
+make
+make install
+```
+
 
 
 
