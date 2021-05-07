@@ -84,15 +84,17 @@ libmediatomb_a-web_update.o: ../src/web/web_update.cc \
  ../src/hash/dbb_hash.h ../src/hash/dbo_hash.h ../src/hash/dsb_hash.h \
  ../src/tools.h ../src/rexp.h /usr/include/regex.h ../src/cds_objects.h \
  ../src/cds_resource.h /usr/include/arm-linux-gnueabihf/sys/time.h \
- ../src/hash/dso_hash.h ../src/timer.h ../src/zmm/zmm.h ../src/tools.h \
- ../src/config_manager.h ../src/object_dictionary.h ../src/xpath.h \
- ../src/autoscan.h ../src/config_options.h \
- ../src/transcoding/transcoding.h ../src/object_dictionary.h \
- ../src/content_manager.h ../src/storage.h ../src/generic_task.h \
- ../src/layout/layout.h ../src/cds_objects.h ../src/autoscan_inotify.h \
+ /usr/include/magic.h ../src/hash/dso_hash.h ../src/timer.h \
+ ../src/zmm/zmm.h ../src/tools.h ../src/config_manager.h \
+ ../src/object_dictionary.h ../src/xpath.h ../src/autoscan.h \
+ ../src/config_options.h ../src/transcoding/transcoding.h \
+ ../src/object_dictionary.h ../src/online_service.h \
+ ../src/layout/layout.h ../src/cds_objects.h ../src/content_manager.h \
+ ../src/storage.h ../src/generic_task.h ../src/autoscan_inotify.h \
  ../src/mt_inotify.h /usr/include/arm-linux-gnueabihf/sys/inotify.h \
- /usr/include/arm-linux-gnueabihf/bits/inotify.h ../src/executor.h \
- ../src/storage.h ../src/autoscan.h ../src/content_manager.h
+ /usr/include/arm-linux-gnueabihf/bits/inotify.h ../src/cached_url.h \
+ ../src/reentrant_array.h ../src/executor.h ../src/storage.h \
+ ../src/autoscan.h ../src/content_manager.h
 
 /usr/include/stdc-predef.h:
 
@@ -392,6 +394,8 @@ libmediatomb_a-web_update.o: ../src/web/web_update.cc \
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
 
+/usr/include/magic.h:
+
 ../src/hash/dso_hash.h:
 
 ../src/timer.h:
@@ -414,15 +418,17 @@ libmediatomb_a-web_update.o: ../src/web/web_update.cc \
 
 ../src/object_dictionary.h:
 
+../src/online_service.h:
+
+../src/layout/layout.h:
+
+../src/cds_objects.h:
+
 ../src/content_manager.h:
 
 ../src/storage.h:
 
 ../src/generic_task.h:
-
-../src/layout/layout.h:
-
-../src/cds_objects.h:
 
 ../src/autoscan_inotify.h:
 
@@ -431,6 +437,10 @@ libmediatomb_a-web_update.o: ../src/web/web_update.cc \
 /usr/include/arm-linux-gnueabihf/sys/inotify.h:
 
 /usr/include/arm-linux-gnueabihf/bits/inotify.h:
+
+../src/cached_url.h:
+
+../src/reentrant_array.h:
 
 ../src/executor.h:
 

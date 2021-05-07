@@ -88,12 +88,13 @@ libmediatomb_a-transcode_ext_handler.o: \
  ../src/object_dictionary.h ../src/xpath.h ../src/autoscan.h \
  ../src/timer.h ../src/zmm/zmm.h ../src/tools.h ../src/rexp.h \
  /usr/include/regex.h ../src/io_handler.h \
- /usr/include/arm-linux-gnueabihf/sys/time.h ../src/config_options.h \
- ../src/transcoding/transcoding.h ../src/storage.h ../src/hash.h \
- ../src/hash/db_hash.h ../src/hash/direct_hash_base.h ../src/hash.h \
- ../src/hash/dbr_hash.h ../src/hash/dbb_hash.h ../src/hash/dbo_hash.h \
- ../src/hash/dsb_hash.h ../src/tools.h ../src/hash/dso_hash.h \
- /usr/include/arm-linux-gnueabihf/sys/stat.h \
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/magic.h \
+ ../src/config_options.h ../src/transcoding/transcoding.h \
+ ../src/online_service.h ../src/layout/layout.h ../src/storage.h \
+ ../src/hash.h ../src/hash/db_hash.h ../src/hash/direct_hash_base.h \
+ ../src/hash.h ../src/hash/dbr_hash.h ../src/hash/dbb_hash.h \
+ ../src/hash/dbo_hash.h ../src/hash/dsb_hash.h ../src/tools.h \
+ ../src/hash/dso_hash.h /usr/include/arm-linux-gnueabihf/sys/stat.h \
  /usr/include/arm-linux-gnueabihf/bits/stat.h /usr/include/fcntl.h \
  /usr/include/arm-linux-gnueabihf/bits/fcntl.h \
  /usr/include/arm-linux-gnueabihf/bits/fcntl-linux.h \
@@ -118,7 +119,15 @@ libmediatomb_a-transcode_ext_handler.o: \
  ../src/metadata_handler.h ../src/file_io_handler.h \
  ../src/transcoding/transcoding_process_executor.h \
  ../src/process_executor.h ../src/io_handler_chainer.h \
- ../src/thread_executor.h ../src/play_hook.h
+ ../src/thread_executor.h ../src/play_hook.h ../src/curl_io_handler.h \
+ /usr/include/arm-linux-gnueabihf/curl/curl.h \
+ /usr/include/arm-linux-gnueabihf/curl/curlver.h \
+ /usr/include/arm-linux-gnueabihf/curl/curlbuild.h \
+ /usr/include/inttypes.h \
+ /usr/include/arm-linux-gnueabihf/curl/curlrules.h \
+ /usr/include/arm-linux-gnueabihf/curl/easy.h \
+ /usr/include/arm-linux-gnueabihf/curl/multi.h \
+ /usr/include/arm-linux-gnueabihf/curl/curl.h
 
 /usr/include/stdc-predef.h:
 
@@ -430,9 +439,15 @@ libmediatomb_a-transcode_ext_handler.o: \
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
 
+/usr/include/magic.h:
+
 ../src/config_options.h:
 
 ../src/transcoding/transcoding.h:
+
+../src/online_service.h:
+
+../src/layout/layout.h:
 
 ../src/storage.h:
 
@@ -529,3 +544,21 @@ libmediatomb_a-transcode_ext_handler.o: \
 ../src/thread_executor.h:
 
 ../src/play_hook.h:
+
+../src/curl_io_handler.h:
+
+/usr/include/arm-linux-gnueabihf/curl/curl.h:
+
+/usr/include/arm-linux-gnueabihf/curl/curlver.h:
+
+/usr/include/arm-linux-gnueabihf/curl/curlbuild.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/arm-linux-gnueabihf/curl/curlrules.h:
+
+/usr/include/arm-linux-gnueabihf/curl/easy.h:
+
+/usr/include/arm-linux-gnueabihf/curl/multi.h:
+
+/usr/include/arm-linux-gnueabihf/curl/curl.h:

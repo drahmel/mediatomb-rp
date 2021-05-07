@@ -75,7 +75,7 @@ libmediatomb_a-transcoding.o: ../src/transcoding/transcoding.cc \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h ../src/cds_objects.h \
  ../src/dictionary.h ../src/cds_resource.h \
- /usr/include/arm-linux-gnueabihf/sys/time.h
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/magic.h
 
 /usr/include/stdc-predef.h:
 
@@ -318,3 +318,5 @@ libmediatomb_a-transcoding.o: ../src/transcoding/transcoding.cc \
 ../src/cds_resource.h:
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
+
+/usr/include/magic.h:

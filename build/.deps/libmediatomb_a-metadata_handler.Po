@@ -73,17 +73,27 @@ libmediatomb_a-metadata_handler.o: ../src/metadata_handler.cc \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h ../src/string_converter.h \
  /usr/include/iconv.h ../src/tools.h ../src/rexp.h /usr/include/regex.h \
- /usr/include/arm-linux-gnueabihf/sys/time.h ../src/config_manager.h \
- ../src/mxml/mxml.h ../src/zmmf/zmmf.h ../src/mxml/attribute.h \
- ../src/mxml/mxml.h ../src/mxml/context.h ../src/mxml/node.h \
- ../src/mxml/element.h ../src/mxml/document.h ../src/mxml/xml_text.h \
- ../src/mxml/comment.h ../src/mxml/parseexception.h ../src/mxml/parser.h \
- /usr/include/expat.h /usr/include/expat_external.h \
- ../src/zmmf/object_stack.h ../src/mxml/xml_to_json.h ../src/singleton.h \
- ../src/object_dictionary.h ../src/xpath.h ../src/autoscan.h \
- ../src/timer.h ../src/zmm/zmm.h ../src/config_options.h \
- ../src/transcoding/transcoding.h ../src/dictionary.h \
- ../src/object_dictionary.h
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/magic.h \
+ ../src/config_manager.h ../src/mxml/mxml.h ../src/zmmf/zmmf.h \
+ ../src/mxml/attribute.h ../src/mxml/mxml.h ../src/mxml/context.h \
+ ../src/mxml/node.h ../src/mxml/element.h ../src/mxml/document.h \
+ ../src/mxml/xml_text.h ../src/mxml/comment.h \
+ ../src/mxml/parseexception.h ../src/mxml/parser.h /usr/include/expat.h \
+ /usr/include/expat_external.h ../src/zmmf/object_stack.h \
+ ../src/mxml/xml_to_json.h ../src/singleton.h ../src/object_dictionary.h \
+ ../src/xpath.h ../src/autoscan.h ../src/timer.h ../src/zmm/zmm.h \
+ ../src/config_options.h ../src/transcoding/transcoding.h \
+ ../src/dictionary.h ../src/object_dictionary.h ../src/online_service.h \
+ ../src/layout/layout.h ../src/cds_objects.h \
+ ../src/metadata/taglib_handler.h ../src/metadata_handler.h \
+ ../src/metadata/libexif_handler.h /usr/include/libexif/exif-data.h \
+ /usr/include/libexif/exif-byte-order.h \
+ /usr/include/libexif/exif-data-type.h /usr/include/libexif/exif-ifd.h \
+ /usr/include/libexif/exif-log.h /usr/include/libexif/exif-mem.h \
+ /usr/include/libexif/exif-utils.h /usr/include/libexif/exif-format.h \
+ /usr/include/libexif/_stdint.h /usr/include/libexif/exif-tag.h \
+ /usr/include/libexif/exif-content.h /usr/include/libexif/exif-entry.h \
+ /usr/include/libexif/exif-mnote-data.h ../src/string_converter.h
 
 /usr/include/stdc-predef.h:
 
@@ -325,6 +335,8 @@ libmediatomb_a-metadata_handler.o: ../src/metadata_handler.cc \
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
 
+/usr/include/magic.h:
+
 ../src/config_manager.h:
 
 ../src/mxml/mxml.h:
@@ -378,3 +390,43 @@ libmediatomb_a-metadata_handler.o: ../src/metadata_handler.cc \
 ../src/dictionary.h:
 
 ../src/object_dictionary.h:
+
+../src/online_service.h:
+
+../src/layout/layout.h:
+
+../src/cds_objects.h:
+
+../src/metadata/taglib_handler.h:
+
+../src/metadata_handler.h:
+
+../src/metadata/libexif_handler.h:
+
+/usr/include/libexif/exif-data.h:
+
+/usr/include/libexif/exif-byte-order.h:
+
+/usr/include/libexif/exif-data-type.h:
+
+/usr/include/libexif/exif-ifd.h:
+
+/usr/include/libexif/exif-log.h:
+
+/usr/include/libexif/exif-mem.h:
+
+/usr/include/libexif/exif-utils.h:
+
+/usr/include/libexif/exif-format.h:
+
+/usr/include/libexif/_stdint.h:
+
+/usr/include/libexif/exif-tag.h:
+
+/usr/include/libexif/exif-content.h:
+
+/usr/include/libexif/exif-entry.h:
+
+/usr/include/libexif/exif-mnote-data.h:
+
+../src/string_converter.h:

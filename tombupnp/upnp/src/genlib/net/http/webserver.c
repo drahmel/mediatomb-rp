@@ -658,7 +658,8 @@ get_file_info( IN const char *filename,
     info->file_length = s.st_size;
     info->last_modified = s.st_mtime;
 
-    rc = get_content_type( filename, &info->content_type );
+    // TODO: Fix compile error
+    //rc = get_content_type( filename, &info->content_type );
 
     info->http_header = NULL;
 

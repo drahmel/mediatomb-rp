@@ -22,17 +22,14 @@ libtombupnp_a-ssdp_server.o: ../upnp/src/ssdp/ssdp_server.c \
  /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
  /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
  /usr/include/alloca.h \
- /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
  ../../tombupnp/upnp/src/inc/util.h ../../tombupnp/upnp/inc/upnp.h \
  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
  /usr/include/wchar.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
- /usr/include/arm-linux-gnueabihf/bits/stdio.h \
  ../../tombupnp/ixml/inc/ixml.h /usr/include/string.h \
- /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/bits/string.h \
- /usr/include/arm-linux-gnueabihf/bits/string2.h /usr/include/assert.h \
+ /usr/include/xlocale.h /usr/include/assert.h \
  ../../tombupnp/upnp/inc/upnpconfig.h /usr/include/netinet/in.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
  /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
@@ -152,8 +149,6 @@ libtombupnp_a-ssdp_server.o: ../upnp/src/ssdp/ssdp_server.c \
 
 /usr/include/alloca.h:
 
-/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
-
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 
 ../../tombupnp/upnp/src/inc/util.h:
@@ -174,17 +169,11 @@ libtombupnp_a-ssdp_server.o: ../upnp/src/ssdp/ssdp_server.c \
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
 
-/usr/include/arm-linux-gnueabihf/bits/stdio.h:
-
 ../../tombupnp/ixml/inc/ixml.h:
 
 /usr/include/string.h:
 
 /usr/include/xlocale.h:
-
-/usr/include/arm-linux-gnueabihf/bits/string.h:
-
-/usr/include/arm-linux-gnueabihf/bits/string2.h:
 
 /usr/include/assert.h:
 

@@ -36,18 +36,15 @@ libtombupnp_a-urlconfig.o: ../upnp/src/urlconfig/urlconfig.c \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
- /usr/include/arm-linux-gnueabihf/bits/stdio.h \
  ../../tombupnp/ixml/inc/ixml.h /usr/include/string.h \
- /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/bits/string.h \
- /usr/include/arm-linux-gnueabihf/bits/string2.h /usr/include/stdlib.h \
- ../../tombupnp/upnp/inc/upnpconfig.h ../../tombupnp/upnp/src/inc/util.h \
+ /usr/include/xlocale.h ../../tombupnp/upnp/inc/upnpconfig.h \
+ ../../tombupnp/upnp/src/inc/util.h \
  ../../tombupnp/upnp/src/inc/webserver.h \
  ../../tombupnp/upnp/src/inc/sock.h ../../tombupnp/upnp/src/inc/util.h \
  ../../tombupnp/upnp/src/inc/httpparser.h \
- ../../tombupnp/upnp/src/inc/membuffer.h \
+ ../../tombupnp/upnp/src/inc/membuffer.h /usr/include/stdlib.h \
  /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
  /usr/include/arm-linux-gnueabihf/bits/waitstatus.h /usr/include/alloca.h \
- /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
  ../../tombupnp/upnp/src/inc/uri.h /usr/include/fcntl.h \
  /usr/include/arm-linux-gnueabihf/bits/fcntl.h \
@@ -169,19 +166,11 @@ libtombupnp_a-urlconfig.o: ../upnp/src/urlconfig/urlconfig.c \
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
 
-/usr/include/arm-linux-gnueabihf/bits/stdio.h:
-
 ../../tombupnp/ixml/inc/ixml.h:
 
 /usr/include/string.h:
 
 /usr/include/xlocale.h:
-
-/usr/include/arm-linux-gnueabihf/bits/string.h:
-
-/usr/include/arm-linux-gnueabihf/bits/string2.h:
-
-/usr/include/stdlib.h:
 
 ../../tombupnp/upnp/inc/upnpconfig.h:
 
@@ -197,13 +186,13 @@ libtombupnp_a-urlconfig.o: ../upnp/src/urlconfig/urlconfig.c \
 
 ../../tombupnp/upnp/src/inc/membuffer.h:
 
+/usr/include/stdlib.h:
+
 /usr/include/arm-linux-gnueabihf/bits/waitflags.h:
 
 /usr/include/arm-linux-gnueabihf/bits/waitstatus.h:
 
 /usr/include/alloca.h:
-
-/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
 
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 

@@ -72,13 +72,14 @@ libmediatomb_a-xpath.o: ../src/xpath.cc /usr/include/stdc-predef.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h ../src/cds_objects.h \
  ../src/dictionary.h ../src/sync.h ../src/cds_resource.h \
- /usr/include/arm-linux-gnueabihf/sys/time.h ../src/xpath.h \
- ../src/mxml/mxml.h ../src/zmmf/zmmf.h ../src/mxml/attribute.h \
- ../src/mxml/mxml.h ../src/mxml/context.h ../src/mxml/node.h \
- ../src/mxml/element.h ../src/mxml/document.h ../src/mxml/xml_text.h \
- ../src/mxml/comment.h ../src/mxml/parseexception.h ../src/mxml/parser.h \
- /usr/include/expat.h /usr/include/expat_external.h \
- ../src/zmmf/object_stack.h ../src/mxml/xml_to_json.h
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/magic.h \
+ ../src/xpath.h ../src/mxml/mxml.h ../src/zmmf/zmmf.h \
+ ../src/mxml/attribute.h ../src/mxml/mxml.h ../src/mxml/context.h \
+ ../src/mxml/node.h ../src/mxml/element.h ../src/mxml/document.h \
+ ../src/mxml/xml_text.h ../src/mxml/comment.h \
+ ../src/mxml/parseexception.h ../src/mxml/parser.h /usr/include/expat.h \
+ /usr/include/expat_external.h ../src/zmmf/object_stack.h \
+ ../src/mxml/xml_to_json.h
 
 /usr/include/stdc-predef.h:
 
@@ -313,6 +314,8 @@ libmediatomb_a-xpath.o: ../src/xpath.cc /usr/include/stdc-predef.h \
 ../src/cds_resource.h:
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
+
+/usr/include/magic.h:
 
 ../src/xpath.h:
 

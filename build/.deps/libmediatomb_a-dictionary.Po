@@ -72,7 +72,8 @@ libmediatomb_a-dictionary.o: ../src/dictionary.cc \
  /usr/include/arm-linux-gnueabihf/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h ../src/cds_objects.h \
- ../src/cds_resource.h /usr/include/arm-linux-gnueabihf/sys/time.h
+ ../src/cds_resource.h /usr/include/arm-linux-gnueabihf/sys/time.h \
+ /usr/include/magic.h
 
 /usr/include/stdc-predef.h:
 
@@ -307,3 +308,5 @@ libmediatomb_a-dictionary.o: ../src/dictionary.cc \
 ../src/cds_resource.h:
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
+
+/usr/include/magic.h:

@@ -33,13 +33,11 @@ libtombupnp_a-ThreadPool.o: ../threadutil/src/ThreadPool.c \
  /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
  /usr/include/arm-linux-gnueabihf/sys/types.h \
  /usr/include/arm-linux-gnueabihf/sys/sysmacros.h /usr/include/alloca.h \
- /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
  /usr/include/wchar.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
- /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
- /usr/include/arm-linux-gnueabihf/bits/stdio.h
+ /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h
 
 /usr/include/stdc-predef.h:
 
@@ -139,8 +137,6 @@ libtombupnp_a-ThreadPool.o: ../threadutil/src/ThreadPool.c \
 
 /usr/include/alloca.h:
 
-/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
-
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 
 /usr/include/stdio.h:
@@ -156,5 +152,3 @@ libtombupnp_a-ThreadPool.o: ../threadutil/src/ThreadPool.c \
 /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
-
-/usr/include/arm-linux-gnueabihf/bits/stdio.h:

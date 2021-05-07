@@ -71,7 +71,7 @@ libmediatomb_a-tools.o: ../src/tools.cc /usr/include/stdc-predef.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h ../src/cds_objects.h \
  ../src/dictionary.h ../src/sync.h ../src/cds_resource.h \
- /usr/include/arm-linux-gnueabihf/sys/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/magic.h \
  /usr/include/arm-linux-gnueabihf/sys/stat.h \
  /usr/include/arm-linux-gnueabihf/bits/stat.h \
  /usr/include/arm-linux-gnueabihf/sys/ioctl.h \
@@ -101,8 +101,9 @@ libmediatomb_a-tools.o: ../src/tools.cc /usr/include/stdc-predef.h \
  ../src/object_dictionary.h ../src/xpath.h ../src/autoscan.h \
  ../src/timer.h ../src/zmm/zmm.h ../src/config_options.h \
  ../src/transcoding/transcoding.h ../src/dictionary.h \
- ../src/object_dictionary.h /usr/include/net/if.h ../src/md5/md5.h \
- ../src/file_io_handler.h ../src/metadata_handler.h
+ ../src/object_dictionary.h ../src/online_service.h \
+ ../src/layout/layout.h ../src/cds_objects.h /usr/include/net/if.h \
+ ../src/md5/md5.h ../src/file_io_handler.h ../src/metadata_handler.h
 
 /usr/include/stdc-predef.h:
 
@@ -338,6 +339,8 @@ libmediatomb_a-tools.o: ../src/tools.cc /usr/include/stdc-predef.h \
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
 
+/usr/include/magic.h:
+
 /usr/include/arm-linux-gnueabihf/sys/stat.h:
 
 /usr/include/arm-linux-gnueabihf/bits/stat.h:
@@ -439,6 +442,12 @@ libmediatomb_a-tools.o: ../src/tools.cc /usr/include/stdc-predef.h \
 ../src/dictionary.h:
 
 ../src/object_dictionary.h:
+
+../src/online_service.h:
+
+../src/layout/layout.h:
+
+../src/cds_objects.h:
 
 /usr/include/net/if.h:
 

@@ -29,13 +29,11 @@ libmediatomb_a-buffered_io_handler.o: ../src/buffered_io_handler.cc \
  /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
  /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
  /usr/include/alloca.h \
- /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h ../src/logger.h \
  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
  /usr/include/wchar.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
- /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
- /usr/include/arm-linux-gnueabihf/bits/stdio.h ../src/zmmf/zmmf.h \
+ /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h ../src/zmmf/zmmf.h \
  ../src/zmm/zmm.h ../src/zmm/nil.h ../src/zmm/null.h ../src/zmm/object.h \
  /usr/include/c++/6/new /usr/include/c++/6/exception \
  /usr/include/c++/6/bits/atomic_lockfree_defines.h \
@@ -76,7 +74,7 @@ libmediatomb_a-buffered_io_handler.o: ../src/buffered_io_handler.cc \
  ../src/io_handler_buffer_helper.h ../src/io_handler.h ../src/sync.h \
  ../src/tools.h ../src/rexp.h /usr/include/regex.h ../src/cds_objects.h \
  ../src/dictionary.h ../src/cds_resource.h \
- /usr/include/arm-linux-gnueabihf/sys/time.h
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/magic.h
 
 /usr/include/stdc-predef.h:
 
@@ -160,8 +158,6 @@ libmediatomb_a-buffered_io_handler.o: ../src/buffered_io_handler.cc \
 
 /usr/include/alloca.h:
 
-/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
-
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 
 ../src/logger.h:
@@ -179,8 +175,6 @@ libmediatomb_a-buffered_io_handler.o: ../src/buffered_io_handler.cc \
 /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
-
-/usr/include/arm-linux-gnueabihf/bits/stdio.h:
 
 ../src/zmmf/zmmf.h:
 
@@ -319,3 +313,5 @@ libmediatomb_a-buffered_io_handler.o: ../src/buffered_io_handler.cc \
 ../src/cds_resource.h:
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
+
+/usr/include/magic.h:

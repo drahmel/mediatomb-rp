@@ -12,9 +12,8 @@ libtombupnp_a-sock.o: ../upnp/src/genlib/net/sock.c \
  /usr/include/arm-linux-gnueabihf/bits/time.h \
  /usr/include/arm-linux-gnueabihf/bits/types.h \
  /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/xlocale.h \
- /usr/include/string.h /usr/include/arm-linux-gnueabihf/bits/string.h \
- /usr/include/arm-linux-gnueabihf/bits/string2.h /usr/include/stdlib.h \
- /usr/include/poll.h /usr/include/arm-linux-gnueabihf/sys/poll.h \
+ /usr/include/string.h /usr/include/poll.h \
+ /usr/include/arm-linux-gnueabihf/sys/poll.h \
  /usr/include/arm-linux-gnueabihf/bits/poll.h \
  ../../tombupnp/upnp/src/inc/sock.h ../../tombupnp/upnp/src/inc/util.h \
  ../../tombupnp/upnp/inc/upnp.h /usr/include/stdio.h /usr/include/libio.h \
@@ -22,7 +21,6 @@ libtombupnp_a-sock.o: ../upnp/src/genlib/net/sock.c \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
- /usr/include/arm-linux-gnueabihf/bits/stdio.h \
  ../../tombupnp/ixml/inc/ixml.h ../../tombupnp/upnp/inc/upnpconfig.h \
  /usr/include/netinet/in.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
@@ -48,10 +46,9 @@ libtombupnp_a-sock.o: ../upnp/src/genlib/net/sock.c \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h \
  ../../tombupnp/upnp/src/inc/upnpapi.h \
- ../../tombupnp/upnp/src/inc/client_table.h \
+ ../../tombupnp/upnp/src/inc/client_table.h /usr/include/stdlib.h \
  /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
  /usr/include/arm-linux-gnueabihf/bits/waitstatus.h /usr/include/alloca.h \
- /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
  ../../tombupnp/upnp/src/inc/uri.h /usr/include/fcntl.h \
  /usr/include/arm-linux-gnueabihf/bits/fcntl.h \
@@ -121,12 +118,6 @@ libtombupnp_a-sock.o: ../upnp/src/genlib/net/sock.c \
 
 /usr/include/string.h:
 
-/usr/include/arm-linux-gnueabihf/bits/string.h:
-
-/usr/include/arm-linux-gnueabihf/bits/string2.h:
-
-/usr/include/stdlib.h:
-
 /usr/include/poll.h:
 
 /usr/include/arm-linux-gnueabihf/sys/poll.h:
@@ -152,8 +143,6 @@ libtombupnp_a-sock.o: ../upnp/src/genlib/net/sock.c \
 /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
-
-/usr/include/arm-linux-gnueabihf/bits/stdio.h:
 
 ../../tombupnp/ixml/inc/ixml.h:
 
@@ -213,13 +202,13 @@ libtombupnp_a-sock.o: ../upnp/src/genlib/net/sock.c \
 
 ../../tombupnp/upnp/src/inc/client_table.h:
 
+/usr/include/stdlib.h:
+
 /usr/include/arm-linux-gnueabihf/bits/waitflags.h:
 
 /usr/include/arm-linux-gnueabihf/bits/waitstatus.h:
 
 /usr/include/alloca.h:
-
-/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
 
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 

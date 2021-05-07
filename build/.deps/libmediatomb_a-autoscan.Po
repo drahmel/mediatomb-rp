@@ -33,7 +33,6 @@ libmediatomb_a-autoscan.o: ../src/autoscan.cc /usr/include/stdc-predef.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
- /usr/include/arm-linux-gnueabihf/bits/stdio.h \
  /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
  /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
  /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
@@ -42,7 +41,6 @@ libmediatomb_a-autoscan.o: ../src/autoscan.cc /usr/include/stdc-predef.h \
  /usr/include/arm-linux-gnueabihf/bits/select.h \
  /usr/include/arm-linux-gnueabihf/bits/sigset.h \
  /usr/include/arm-linux-gnueabihf/sys/sysmacros.h /usr/include/alloca.h \
- /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
  /usr/include/string.h /usr/include/unistd.h \
  /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
@@ -75,16 +73,24 @@ libmediatomb_a-autoscan.o: ../src/autoscan.cc /usr/include/stdc-predef.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h ../src/cds_objects.h \
  ../src/dictionary.h ../src/cds_resource.h \
- /usr/include/arm-linux-gnueabihf/sys/time.h ../src/storage.h \
- ../src/hash.h ../src/hash/db_hash.h ../src/hash/direct_hash_base.h \
- ../src/hash.h ../src/hash/dbr_hash.h ../src/hash/dbb_hash.h \
- ../src/hash/dbo_hash.h ../src/hash/dsb_hash.h ../src/tools.h \
- ../src/hash/dso_hash.h ../src/content_manager.h ../src/generic_task.h \
- ../src/layout/layout.h ../src/cds_objects.h ../src/autoscan_inotify.h \
- ../src/mt_inotify.h /usr/include/arm-linux-gnueabihf/sys/inotify.h \
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/magic.h \
+ ../src/storage.h ../src/hash.h ../src/hash/db_hash.h \
+ ../src/hash/direct_hash_base.h ../src/hash.h ../src/hash/dbr_hash.h \
+ ../src/hash/dbb_hash.h ../src/hash/dbo_hash.h ../src/hash/dsb_hash.h \
+ ../src/tools.h ../src/hash/dso_hash.h ../src/content_manager.h \
+ ../src/generic_task.h ../src/layout/layout.h ../src/cds_objects.h \
+ ../src/autoscan_inotify.h ../src/mt_inotify.h \
+ /usr/include/arm-linux-gnueabihf/sys/inotify.h \
  /usr/include/arm-linux-gnueabihf/bits/inotify.h \
  ../src/transcoding/transcoding.h ../src/zmmf/zmmf.h ../src/dictionary.h \
- ../src/object_dictionary.h ../src/executor.h
+ ../src/object_dictionary.h ../src/online_service.h ../src/mxml/mxml.h \
+ ../src/mxml/attribute.h ../src/mxml/mxml.h ../src/mxml/context.h \
+ ../src/mxml/node.h ../src/mxml/element.h ../src/mxml/document.h \
+ ../src/mxml/xml_text.h ../src/mxml/comment.h \
+ ../src/mxml/parseexception.h ../src/mxml/parser.h /usr/include/expat.h \
+ /usr/include/expat_external.h ../src/zmmf/object_stack.h \
+ ../src/mxml/xml_to_json.h ../src/cached_url.h ../src/reentrant_array.h \
+ ../src/executor.h
 
 /usr/include/stdc-predef.h:
 
@@ -188,8 +194,6 @@ libmediatomb_a-autoscan.o: ../src/autoscan.cc /usr/include/stdc-predef.h \
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
 
-/usr/include/arm-linux-gnueabihf/bits/stdio.h:
-
 /usr/include/c++/6/stdlib.h:
 
 /usr/include/c++/6/cstdlib:
@@ -211,8 +215,6 @@ libmediatomb_a-autoscan.o: ../src/autoscan.cc /usr/include/stdc-predef.h \
 /usr/include/arm-linux-gnueabihf/sys/sysmacros.h:
 
 /usr/include/alloca.h:
-
-/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
 
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 
@@ -332,6 +334,8 @@ libmediatomb_a-autoscan.o: ../src/autoscan.cc /usr/include/stdc-predef.h \
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
 
+/usr/include/magic.h:
+
 ../src/storage.h:
 
 ../src/hash.h:
@@ -377,5 +381,41 @@ libmediatomb_a-autoscan.o: ../src/autoscan.cc /usr/include/stdc-predef.h \
 ../src/dictionary.h:
 
 ../src/object_dictionary.h:
+
+../src/online_service.h:
+
+../src/mxml/mxml.h:
+
+../src/mxml/attribute.h:
+
+../src/mxml/mxml.h:
+
+../src/mxml/context.h:
+
+../src/mxml/node.h:
+
+../src/mxml/element.h:
+
+../src/mxml/document.h:
+
+../src/mxml/xml_text.h:
+
+../src/mxml/comment.h:
+
+../src/mxml/parseexception.h:
+
+../src/mxml/parser.h:
+
+/usr/include/expat.h:
+
+/usr/include/expat_external.h:
+
+../src/zmmf/object_stack.h:
+
+../src/mxml/xml_to_json.h:
+
+../src/cached_url.h:
+
+../src/reentrant_array.h:
 
 ../src/executor.h:

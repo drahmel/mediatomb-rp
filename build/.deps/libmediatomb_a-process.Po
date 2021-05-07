@@ -94,8 +94,10 @@ libmediatomb_a-process.o: ../src/process.cc /usr/include/stdc-predef.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h ../src/cds_objects.h \
  ../src/cds_resource.h /usr/include/arm-linux-gnueabihf/sys/time.h \
- ../src/config_options.h ../src/transcoding/transcoding.h \
- ../src/dictionary.h ../src/object_dictionary.h
+ /usr/include/magic.h ../src/config_options.h \
+ ../src/transcoding/transcoding.h ../src/dictionary.h \
+ ../src/object_dictionary.h ../src/online_service.h \
+ ../src/layout/layout.h ../src/cds_objects.h
 
 /usr/include/stdc-predef.h:
 
@@ -409,6 +411,8 @@ libmediatomb_a-process.o: ../src/process.cc /usr/include/stdc-predef.h \
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
 
+/usr/include/magic.h:
+
 ../src/config_options.h:
 
 ../src/transcoding/transcoding.h:
@@ -416,3 +420,9 @@ libmediatomb_a-process.o: ../src/process.cc /usr/include/stdc-predef.h \
 ../src/dictionary.h:
 
 ../src/object_dictionary.h:
+
+../src/online_service.h:
+
+../src/layout/layout.h:
+
+../src/cds_objects.h:

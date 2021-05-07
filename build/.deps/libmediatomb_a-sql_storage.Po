@@ -86,10 +86,10 @@ libmediatomb_a-sql_storage.o: ../src/storage/sql_storage.cc \
  /usr/include/arm-linux-gnueabihf/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h \
- /usr/include/arm-linux-gnueabihf/sys/time.h ../src/hash/dso_hash.h \
- ../src/autoscan.h ../src/timer.h ../src/zmm/zmm.h ../src/tools.h \
- ../src/sync.h ../src/storage/storage_cache.h ../src/common.h \
- ../src/storage/cache_object.h ../src/update_manager.h \
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/magic.h \
+ ../src/hash/dso_hash.h ../src/autoscan.h ../src/timer.h ../src/zmm/zmm.h \
+ ../src/tools.h ../src/sync.h ../src/storage/storage_cache.h \
+ ../src/common.h ../src/storage/cache_object.h ../src/update_manager.h \
  ../src/string_converter.h /usr/include/iconv.h ../src/config_manager.h \
  ../src/mxml/mxml.h ../src/mxml/attribute.h ../src/mxml/mxml.h \
  ../src/mxml/context.h ../src/mxml/node.h ../src/mxml/element.h \
@@ -98,7 +98,8 @@ libmediatomb_a-sql_storage.o: ../src/storage/sql_storage.cc \
  /usr/include/expat_external.h ../src/zmmf/object_stack.h \
  ../src/mxml/xml_to_json.h ../src/object_dictionary.h ../src/xpath.h \
  ../src/config_options.h ../src/transcoding/transcoding.h \
- ../src/object_dictionary.h ../src/filesystem.h
+ ../src/object_dictionary.h ../src/online_service.h \
+ ../src/layout/layout.h ../src/filesystem.h
 
 /usr/include/stdc-predef.h:
 
@@ -378,6 +379,8 @@ libmediatomb_a-sql_storage.o: ../src/storage/sql_storage.cc \
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
 
+/usr/include/magic.h:
+
 ../src/hash/dso_hash.h:
 
 ../src/autoscan.h:
@@ -443,5 +446,9 @@ libmediatomb_a-sql_storage.o: ../src/storage/sql_storage.cc \
 ../src/transcoding/transcoding.h:
 
 ../src/object_dictionary.h:
+
+../src/online_service.h:
+
+../src/layout/layout.h:
 
 ../src/filesystem.h:

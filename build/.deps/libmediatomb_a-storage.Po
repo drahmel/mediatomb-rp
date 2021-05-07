@@ -81,16 +81,21 @@ libmediatomb_a-storage.o: ../src/storage.cc /usr/include/stdc-predef.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h ../src/cds_objects.h \
  ../src/cds_resource.h /usr/include/arm-linux-gnueabihf/sys/time.h \
- ../src/config_options.h ../src/transcoding/transcoding.h \
- ../src/dictionary.h ../src/object_dictionary.h \
+ /usr/include/magic.h ../src/config_options.h \
+ ../src/transcoding/transcoding.h ../src/dictionary.h \
+ ../src/object_dictionary.h ../src/online_service.h \
+ ../src/layout/layout.h ../src/cds_objects.h \
  ../src/storage/sqlite3/sqlite3_storage.h /usr/include/sqlite3.h \
- ../src/storage/sql_storage.h ../src/cds_objects.h ../src/storage.h \
- ../src/hash.h ../src/hash/db_hash.h ../src/hash/direct_hash_base.h \
- ../src/hash.h ../src/hash/dbr_hash.h ../src/hash/dbb_hash.h \
- ../src/hash/dbo_hash.h ../src/hash/dsb_hash.h ../src/tools.h \
- ../src/hash/dso_hash.h ../src/sync.h ../src/storage/storage_cache.h \
- ../src/common.h ../src/storage/cache_object.h ../src/timer.h \
- ../src/storage/mysql/mysql_storage.h
+ ../src/storage/sql_storage.h ../src/storage.h ../src/hash.h \
+ ../src/hash/db_hash.h ../src/hash/direct_hash_base.h ../src/hash.h \
+ ../src/hash/dbr_hash.h ../src/hash/dbb_hash.h ../src/hash/dbo_hash.h \
+ ../src/hash/dsb_hash.h ../src/tools.h ../src/hash/dso_hash.h \
+ ../src/sync.h ../src/storage/storage_cache.h ../src/common.h \
+ ../src/storage/cache_object.h ../src/timer.h \
+ ../src/storage/mysql/mysql_storage.h /usr/include/mysql/mysql.h \
+ /usr/include/mysql/mysql_version.h /usr/include/mysql/mysql_com.h \
+ /usr/include/mysql/mysql_time.h /usr/include/mysql/my_list.h \
+ /usr/include/mysql/typelib.h /usr/include/mysql/my_alloc.h
 
 /usr/include/stdc-predef.h:
 
@@ -372,6 +377,8 @@ libmediatomb_a-storage.o: ../src/storage.cc /usr/include/stdc-predef.h \
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
 
+/usr/include/magic.h:
+
 ../src/config_options.h:
 
 ../src/transcoding/transcoding.h:
@@ -380,13 +387,17 @@ libmediatomb_a-storage.o: ../src/storage.cc /usr/include/stdc-predef.h \
 
 ../src/object_dictionary.h:
 
+../src/online_service.h:
+
+../src/layout/layout.h:
+
+../src/cds_objects.h:
+
 ../src/storage/sqlite3/sqlite3_storage.h:
 
 /usr/include/sqlite3.h:
 
 ../src/storage/sql_storage.h:
-
-../src/cds_objects.h:
 
 ../src/storage.h:
 
@@ -421,3 +432,17 @@ libmediatomb_a-storage.o: ../src/storage.cc /usr/include/stdc-predef.h \
 ../src/timer.h:
 
 ../src/storage/mysql/mysql_storage.h:
+
+/usr/include/mysql/mysql.h:
+
+/usr/include/mysql/mysql_version.h:
+
+/usr/include/mysql/mysql_com.h:
+
+/usr/include/mysql/mysql_time.h:
+
+/usr/include/mysql/my_list.h:
+
+/usr/include/mysql/typelib.h:
+
+/usr/include/mysql/my_alloc.h:

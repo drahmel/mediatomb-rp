@@ -16,11 +16,9 @@ libtombupnp_a-webserver.o: ../upnp/src/genlib/net/http/webserver.c \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
- /usr/include/arm-linux-gnueabihf/bits/stdio.h \
  ../../tombupnp/ixml/inc/ixml.h /usr/include/string.h \
- /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/bits/string.h \
- /usr/include/arm-linux-gnueabihf/bits/string2.h /usr/include/stdlib.h \
- ../../tombupnp/upnp/inc/upnpconfig.h /usr/include/netinet/in.h \
+ /usr/include/xlocale.h ../../tombupnp/upnp/inc/upnpconfig.h \
+ /usr/include/netinet/in.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
  /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
  /usr/include/arm-linux-gnueabihf/sys/socket.h \
@@ -44,10 +42,9 @@ libtombupnp_a-webserver.o: ../upnp/src/genlib/net/http/webserver.c \
  /usr/include/arm-linux-gnueabihf/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h \
- ../../tombupnp/upnp/src/inc/strintmap.h \
+ ../../tombupnp/upnp/src/inc/strintmap.h /usr/include/stdlib.h \
  /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
  /usr/include/arm-linux-gnueabihf/bits/waitstatus.h /usr/include/alloca.h \
- /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
  ../../tombupnp/upnp/src/inc/util.h \
  ../../tombupnp/upnp/src/inc/membuffer.h \
@@ -152,19 +149,11 @@ libtombupnp_a-webserver.o: ../upnp/src/genlib/net/http/webserver.c \
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
 
-/usr/include/arm-linux-gnueabihf/bits/stdio.h:
-
 ../../tombupnp/ixml/inc/ixml.h:
 
 /usr/include/string.h:
 
 /usr/include/xlocale.h:
-
-/usr/include/arm-linux-gnueabihf/bits/string.h:
-
-/usr/include/arm-linux-gnueabihf/bits/string2.h:
-
-/usr/include/stdlib.h:
 
 ../../tombupnp/upnp/inc/upnpconfig.h:
 
@@ -222,13 +211,13 @@ libtombupnp_a-webserver.o: ../upnp/src/genlib/net/http/webserver.c \
 
 ../../tombupnp/upnp/src/inc/strintmap.h:
 
+/usr/include/stdlib.h:
+
 /usr/include/arm-linux-gnueabihf/bits/waitflags.h:
 
 /usr/include/arm-linux-gnueabihf/bits/waitstatus.h:
 
 /usr/include/alloca.h:
-
-/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
 
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 

@@ -22,12 +22,10 @@ libtombupnp_a-iasnprintf.o: ../threadutil/src/iasnprintf.c \
  /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
  /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
  /usr/include/alloca.h \
- /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
  /usr/include/wchar.h /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
- /usr/include/arm-linux-gnueabihf/bits/stdio.h \
  ../../tombupnp/threadutil/inc/iasnprintf.h
 
 /usr/include/stdc-predef.h:
@@ -86,8 +84,6 @@ libtombupnp_a-iasnprintf.o: ../threadutil/src/iasnprintf.c \
 
 /usr/include/alloca.h:
 
-/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
-
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 
 /usr/include/stdio.h:
@@ -101,7 +97,5 @@ libtombupnp_a-iasnprintf.o: ../threadutil/src/iasnprintf.c \
 /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
-
-/usr/include/arm-linux-gnueabihf/bits/stdio.h:
 
 ../../tombupnp/threadutil/inc/iasnprintf.h:

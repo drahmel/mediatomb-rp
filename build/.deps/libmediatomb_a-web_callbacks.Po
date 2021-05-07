@@ -73,29 +73,32 @@ libmediatomb_a-web_callbacks.o: ../src/web_callbacks.cc \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h ../src/cds_objects.h \
  ../src/dictionary.h ../src/sync.h ../src/cds_resource.h \
- /usr/include/arm-linux-gnueabihf/sys/time.h ../src/web_callbacks.h \
- ../src/server.h ../src/singleton.h ../src/action_request.h \
- ../src/mxml/mxml.h ../src/zmmf/zmmf.h ../src/mxml/attribute.h \
- ../src/mxml/mxml.h ../src/mxml/context.h ../src/mxml/node.h \
- ../src/mxml/element.h ../src/mxml/document.h ../src/mxml/xml_text.h \
- ../src/mxml/comment.h ../src/mxml/parseexception.h ../src/mxml/parser.h \
- /usr/include/expat.h /usr/include/expat_external.h \
- ../src/zmmf/object_stack.h ../src/mxml/xml_to_json.h \
- ../src/subscription_request.h ../src/upnp_cds.h ../src/upnp_cm.h \
- ../src/upnp_xml.h ../src/upnp_mrreg.h ../src/config_manager.h \
- ../src/object_dictionary.h ../src/xpath.h ../src/autoscan.h \
- ../src/timer.h ../src/zmm/zmm.h ../src/config_options.h \
- ../src/transcoding/transcoding.h ../src/dictionary.h \
- ../src/object_dictionary.h ../src/storage.h ../src/hash.h \
- ../src/hash/db_hash.h ../src/hash/direct_hash_base.h ../src/hash.h \
- ../src/hash/dbr_hash.h ../src/hash/dbb_hash.h ../src/hash/dbo_hash.h \
- ../src/hash/dsb_hash.h ../src/tools.h ../src/hash/dso_hash.h \
- ../src/process.h ../src/update_manager.h ../src/request_handler.h \
- ../src/file_request_handler.h ../src/web_request_handler.h \
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/magic.h \
+ ../src/web_callbacks.h ../src/server.h ../src/singleton.h \
+ ../src/action_request.h ../src/mxml/mxml.h ../src/zmmf/zmmf.h \
+ ../src/mxml/attribute.h ../src/mxml/mxml.h ../src/mxml/context.h \
+ ../src/mxml/node.h ../src/mxml/element.h ../src/mxml/document.h \
+ ../src/mxml/xml_text.h ../src/mxml/comment.h \
+ ../src/mxml/parseexception.h ../src/mxml/parser.h /usr/include/expat.h \
+ /usr/include/expat_external.h ../src/zmmf/object_stack.h \
+ ../src/mxml/xml_to_json.h ../src/subscription_request.h \
+ ../src/upnp_cds.h ../src/upnp_cm.h ../src/upnp_xml.h ../src/upnp_mrreg.h \
+ ../src/config_manager.h ../src/object_dictionary.h ../src/xpath.h \
+ ../src/autoscan.h ../src/timer.h ../src/zmm/zmm.h \
+ ../src/config_options.h ../src/transcoding/transcoding.h \
+ ../src/dictionary.h ../src/object_dictionary.h ../src/online_service.h \
+ ../src/layout/layout.h ../src/cds_objects.h ../src/storage.h \
+ ../src/hash.h ../src/hash/db_hash.h ../src/hash/direct_hash_base.h \
+ ../src/hash.h ../src/hash/dbr_hash.h ../src/hash/dbb_hash.h \
+ ../src/hash/dbo_hash.h ../src/hash/dsb_hash.h ../src/tools.h \
+ ../src/hash/dso_hash.h ../src/process.h ../src/update_manager.h \
+ ../src/request_handler.h ../src/file_request_handler.h \
+ ../src/url_request_handler.h ../src/web_request_handler.h \
  ../src/session_manager.h ../src/content_manager.h ../src/generic_task.h \
- ../src/layout/layout.h ../src/cds_objects.h ../src/autoscan_inotify.h \
- ../src/mt_inotify.h /usr/include/arm-linux-gnueabihf/sys/inotify.h \
- /usr/include/arm-linux-gnueabihf/bits/inotify.h ../src/executor.h \
+ ../src/autoscan_inotify.h ../src/mt_inotify.h \
+ /usr/include/arm-linux-gnueabihf/sys/inotify.h \
+ /usr/include/arm-linux-gnueabihf/bits/inotify.h ../src/cached_url.h \
+ ../src/reentrant_array.h ../src/executor.h \
  ../src/serve_request_handler.h ../src/web/pages.h ../src/common.h \
  ../src/request_handler.h ../src/web_request_handler.h \
  /usr/include/arm-linux-gnueabihf/sys/stat.h \
@@ -335,6 +338,8 @@ libmediatomb_a-web_callbacks.o: ../src/web_callbacks.cc \
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
 
+/usr/include/magic.h:
+
 ../src/web_callbacks.h:
 
 ../src/server.h:
@@ -405,6 +410,12 @@ libmediatomb_a-web_callbacks.o: ../src/web_callbacks.cc \
 
 ../src/object_dictionary.h:
 
+../src/online_service.h:
+
+../src/layout/layout.h:
+
+../src/cds_objects.h:
+
 ../src/storage.h:
 
 ../src/hash.h:
@@ -435,6 +446,8 @@ libmediatomb_a-web_callbacks.o: ../src/web_callbacks.cc \
 
 ../src/file_request_handler.h:
 
+../src/url_request_handler.h:
+
 ../src/web_request_handler.h:
 
 ../src/session_manager.h:
@@ -443,10 +456,6 @@ libmediatomb_a-web_callbacks.o: ../src/web_callbacks.cc \
 
 ../src/generic_task.h:
 
-../src/layout/layout.h:
-
-../src/cds_objects.h:
-
 ../src/autoscan_inotify.h:
 
 ../src/mt_inotify.h:
@@ -454,6 +463,10 @@ libmediatomb_a-web_callbacks.o: ../src/web_callbacks.cc \
 /usr/include/arm-linux-gnueabihf/sys/inotify.h:
 
 /usr/include/arm-linux-gnueabihf/bits/inotify.h:
+
+../src/cached_url.h:
+
+../src/reentrant_array.h:
 
 ../src/executor.h:
 

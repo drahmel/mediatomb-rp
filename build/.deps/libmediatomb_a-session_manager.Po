@@ -74,8 +74,8 @@ libmediatomb_a-session_manager.o: ../src/session_manager.cc \
  /usr/include/arm-linux-gnueabihf/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h ../src/cds_objects.h \
- ../src/cds_resource.h ../src/hash/dso_hash.h ../src/timer.h \
- ../src/zmm/zmm.h ../src/tools.h ../src/config_manager.h \
+ ../src/cds_resource.h /usr/include/magic.h ../src/hash/dso_hash.h \
+ ../src/timer.h ../src/zmm/zmm.h ../src/tools.h ../src/config_manager.h \
  ../src/mxml/mxml.h ../src/zmmf/zmmf.h ../src/mxml/attribute.h \
  ../src/mxml/mxml.h ../src/mxml/context.h ../src/mxml/node.h \
  ../src/mxml/element.h ../src/mxml/document.h ../src/mxml/xml_text.h \
@@ -84,7 +84,8 @@ libmediatomb_a-session_manager.o: ../src/session_manager.cc \
  ../src/zmmf/object_stack.h ../src/mxml/xml_to_json.h \
  ../src/object_dictionary.h ../src/xpath.h ../src/autoscan.h \
  ../src/config_options.h ../src/transcoding/transcoding.h \
- ../src/dictionary.h ../src/object_dictionary.h
+ ../src/dictionary.h ../src/object_dictionary.h ../src/online_service.h \
+ ../src/layout/layout.h ../src/cds_objects.h
 
 /usr/include/stdc-predef.h:
 
@@ -342,6 +343,8 @@ libmediatomb_a-session_manager.o: ../src/session_manager.cc \
 
 ../src/cds_resource.h:
 
+/usr/include/magic.h:
+
 ../src/hash/dso_hash.h:
 
 ../src/timer.h:
@@ -397,3 +400,9 @@ libmediatomb_a-session_manager.o: ../src/session_manager.cc \
 ../src/dictionary.h:
 
 ../src/object_dictionary.h:
+
+../src/online_service.h:
+
+../src/layout/layout.h:
+
+../src/cds_objects.h:

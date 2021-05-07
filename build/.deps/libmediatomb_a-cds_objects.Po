@@ -72,8 +72,8 @@ libmediatomb_a-cds_objects.o: ../src/cds_objects.cc \
  /usr/include/arm-linux-gnueabihf/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h \
- /usr/include/arm-linux-gnueabihf/sys/time.h ../src/storage.h \
- ../src/singleton.h ../src/hash.h ../src/hash/db_hash.h \
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/magic.h \
+ ../src/storage.h ../src/singleton.h ../src/hash.h ../src/hash/db_hash.h \
  ../src/hash/direct_hash_base.h ../src/hash.h ../src/hash/dbr_hash.h \
  ../src/hash/dbb_hash.h ../src/hash/dbo_hash.h ../src/hash/dsb_hash.h \
  ../src/tools.h ../src/hash/dso_hash.h ../src/autoscan.h ../src/timer.h \
@@ -318,6 +318,8 @@ libmediatomb_a-cds_objects.o: ../src/cds_objects.cc \
 /usr/include/arm-linux-gnueabihf/bits/in.h:
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
+
+/usr/include/magic.h:
 
 ../src/storage.h:
 

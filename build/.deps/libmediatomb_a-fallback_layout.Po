@@ -77,21 +77,40 @@ libmediatomb_a-fallback_layout.o: ../src/layout/fallback_layout.cc \
  /usr/include/arm-linux-gnueabihf/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h \
- /usr/include/arm-linux-gnueabihf/sys/time.h ../src/hash/dso_hash.h \
- ../src/autoscan.h ../src/timer.h ../src/zmm/zmm.h ../src/tools.h \
- ../src/generic_task.h ../src/layout/layout.h ../src/autoscan_inotify.h \
- ../src/mt_inotify.h /usr/include/arm-linux-gnueabihf/sys/inotify.h \
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/magic.h \
+ ../src/hash/dso_hash.h ../src/autoscan.h ../src/timer.h ../src/zmm/zmm.h \
+ ../src/tools.h ../src/generic_task.h ../src/layout/layout.h \
+ ../src/autoscan_inotify.h ../src/mt_inotify.h \
+ /usr/include/arm-linux-gnueabihf/sys/inotify.h \
  /usr/include/arm-linux-gnueabihf/bits/inotify.h \
  ../src/transcoding/transcoding.h ../src/zmmf/zmmf.h ../src/dictionary.h \
- ../src/object_dictionary.h ../src/executor.h ../src/config_manager.h \
- ../src/mxml/mxml.h ../src/mxml/attribute.h ../src/mxml/mxml.h \
- ../src/mxml/context.h ../src/mxml/node.h ../src/mxml/element.h \
- ../src/mxml/document.h ../src/mxml/xml_text.h ../src/mxml/comment.h \
+ ../src/object_dictionary.h ../src/online_service.h ../src/mxml/mxml.h \
+ ../src/mxml/attribute.h ../src/mxml/mxml.h ../src/mxml/context.h \
+ ../src/mxml/node.h ../src/mxml/element.h ../src/mxml/document.h \
+ ../src/mxml/xml_text.h ../src/mxml/comment.h \
  ../src/mxml/parseexception.h ../src/mxml/parser.h /usr/include/expat.h \
  /usr/include/expat_external.h ../src/zmmf/object_stack.h \
- ../src/mxml/xml_to_json.h ../src/object_dictionary.h ../src/xpath.h \
- ../src/config_options.h ../src/metadata_handler.h \
- ../src/string_converter.h /usr/include/iconv.h
+ ../src/mxml/xml_to_json.h ../src/cached_url.h ../src/reentrant_array.h \
+ ../src/executor.h ../src/config_manager.h ../src/object_dictionary.h \
+ ../src/xpath.h ../src/config_options.h ../src/metadata_handler.h \
+ ../src/string_converter.h /usr/include/iconv.h ../src/online_service.h \
+ ../src/youtube_content_handler.h ../src/youtube_service.h ../src/url.h \
+ /usr/include/arm-linux-gnueabihf/curl/curl.h \
+ /usr/include/arm-linux-gnueabihf/curl/curlver.h \
+ /usr/include/arm-linux-gnueabihf/curl/curlbuild.h \
+ /usr/include/inttypes.h \
+ /usr/include/arm-linux-gnueabihf/curl/curlrules.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/curl/easy.h \
+ /usr/include/arm-linux-gnueabihf/curl/multi.h \
+ /usr/include/arm-linux-gnueabihf/curl/curl.h \
+ ../src/youtube_content_handler.h
 
 /usr/include/stdc-predef.h:
 
@@ -355,6 +374,8 @@ libmediatomb_a-fallback_layout.o: ../src/layout/fallback_layout.cc \
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
 
+/usr/include/magic.h:
+
 ../src/hash/dso_hash.h:
 
 ../src/autoscan.h:
@@ -385,9 +406,7 @@ libmediatomb_a-fallback_layout.o: ../src/layout/fallback_layout.cc \
 
 ../src/object_dictionary.h:
 
-../src/executor.h:
-
-../src/config_manager.h:
+../src/online_service.h:
 
 ../src/mxml/mxml.h:
 
@@ -419,6 +438,14 @@ libmediatomb_a-fallback_layout.o: ../src/layout/fallback_layout.cc \
 
 ../src/mxml/xml_to_json.h:
 
+../src/cached_url.h:
+
+../src/reentrant_array.h:
+
+../src/executor.h:
+
+../src/config_manager.h:
+
 ../src/object_dictionary.h:
 
 ../src/xpath.h:
@@ -430,3 +457,45 @@ libmediatomb_a-fallback_layout.o: ../src/layout/fallback_layout.cc \
 ../src/string_converter.h:
 
 /usr/include/iconv.h:
+
+../src/online_service.h:
+
+../src/youtube_content_handler.h:
+
+../src/youtube_service.h:
+
+../src/url.h:
+
+/usr/include/arm-linux-gnueabihf/curl/curl.h:
+
+/usr/include/arm-linux-gnueabihf/curl/curlver.h:
+
+/usr/include/arm-linux-gnueabihf/curl/curlbuild.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/arm-linux-gnueabihf/curl/curlrules.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/arm-linux-gnueabihf/bits/posix1_lim.h:
+
+/usr/include/arm-linux-gnueabihf/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/arm-linux-gnueabihf/bits/posix2_lim.h:
+
+/usr/include/arm-linux-gnueabihf/bits/xopen_lim.h:
+
+/usr/include/arm-linux-gnueabihf/curl/easy.h:
+
+/usr/include/arm-linux-gnueabihf/curl/multi.h:
+
+/usr/include/arm-linux-gnueabihf/curl/curl.h:
+
+../src/youtube_content_handler.h:

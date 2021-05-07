@@ -77,7 +77,7 @@ libmediatomb_a-transcode_dispatcher.o: \
  /usr/include/arm-linux-gnueabihf/bits/in.h \
  ../src/transcoding/transcode_ext_handler.h ../src/tools.h ../src/rexp.h \
  /usr/include/regex.h ../src/io_handler.h ../src/cds_objects.h \
- /usr/include/arm-linux-gnueabihf/sys/time.h
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/magic.h
 
 /usr/include/stdc-predef.h:
 
@@ -332,3 +332,5 @@ libmediatomb_a-transcode_dispatcher.o: \
 ../src/cds_objects.h:
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
+
+/usr/include/magic.h:

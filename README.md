@@ -131,5 +131,26 @@ Streamed successfully from Android BubblePNP
 TODO: Fix compile errors and make sure optional modules compile
 
 
+## Second compile
+
+Errors when two plugins enabled, so run configure with them disabled:
+
+./configure --disable-ffmpeg --disable-libmp4v2
+
+Compile also stopped by problem in line 662 of tombupnp/upnp/src/genlib/net/http/webserver.c:
+
+g++ -I../src -I../tombupnp/ixml/inc -I../tombupnp/threadutil/inc -I../tombupnp/upnp/inc -I..  -I/usr/include/mysql   -I/usr/include/taglib       -pthread        -fpermissive  -lrt  -lmagic -o mediatomb mediatomb-main.o libmediatomb.a ../tombupnp/build/libtombupnp.a              -lsqlite3 -L/usr/lib/arm-linux-gnueabihf  -lmariadbclient -lpthread -lz -lm -ldl -L/usr/lib/arm-linux-gnueabihf -ltag   -lmagic  -lexif -lz -lrt -pthread    -lexpat     -lcurl -lcurl
+../tombupnp/build/libtombupnp.a(libtombupnp_a-webserver.o): In function `get_file_info':
+webserver.c:(.text+0x634): undefined reference to `get_content_type'
+collect2: error: ld returned 1 exit status
+
+
+
+Commented out and compiled:
+
+    // TODO: Fix compile error
+    //rc = get_content_type( filename, &info->content_type );
+
+
 
 

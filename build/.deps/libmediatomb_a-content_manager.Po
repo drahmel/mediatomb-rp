@@ -76,27 +76,43 @@ libmediatomb_a-content_manager.o: ../src/content_manager.cc \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h ../src/cds_objects.h \
  ../src/dictionary.h ../src/sync.h ../src/cds_resource.h \
- /usr/include/arm-linux-gnueabihf/sys/time.h ../src/content_manager.h \
- ../src/storage.h ../src/singleton.h ../src/hash.h ../src/hash/db_hash.h \
- ../src/hash/direct_hash_base.h ../src/hash.h ../src/hash/dbr_hash.h \
- ../src/hash/dbb_hash.h ../src/hash/dbo_hash.h ../src/hash/dsb_hash.h \
- ../src/tools.h ../src/hash/dso_hash.h ../src/autoscan.h ../src/timer.h \
- ../src/zmm/zmm.h ../src/generic_task.h ../src/layout/layout.h \
- ../src/cds_objects.h ../src/autoscan_inotify.h ../src/mt_inotify.h \
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/magic.h \
+ ../src/content_manager.h ../src/storage.h ../src/singleton.h \
+ ../src/hash.h ../src/hash/db_hash.h ../src/hash/direct_hash_base.h \
+ ../src/hash.h ../src/hash/dbr_hash.h ../src/hash/dbb_hash.h \
+ ../src/hash/dbo_hash.h ../src/hash/dsb_hash.h ../src/tools.h \
+ ../src/hash/dso_hash.h ../src/autoscan.h ../src/timer.h ../src/zmm/zmm.h \
+ ../src/generic_task.h ../src/layout/layout.h ../src/cds_objects.h \
+ ../src/autoscan_inotify.h ../src/mt_inotify.h \
  /usr/include/arm-linux-gnueabihf/sys/inotify.h \
  /usr/include/arm-linux-gnueabihf/bits/inotify.h \
  ../src/transcoding/transcoding.h ../src/zmmf/zmmf.h ../src/dictionary.h \
- ../src/object_dictionary.h ../src/executor.h ../src/config_manager.h \
- ../src/mxml/mxml.h ../src/mxml/attribute.h ../src/mxml/mxml.h \
- ../src/mxml/context.h ../src/mxml/node.h ../src/mxml/element.h \
- ../src/mxml/document.h ../src/mxml/xml_text.h ../src/mxml/comment.h \
+ ../src/object_dictionary.h ../src/online_service.h ../src/mxml/mxml.h \
+ ../src/mxml/attribute.h ../src/mxml/mxml.h ../src/mxml/context.h \
+ ../src/mxml/node.h ../src/mxml/element.h ../src/mxml/document.h \
+ ../src/mxml/xml_text.h ../src/mxml/comment.h \
  ../src/mxml/parseexception.h ../src/mxml/parser.h /usr/include/expat.h \
  /usr/include/expat_external.h ../src/zmmf/object_stack.h \
- ../src/mxml/xml_to_json.h ../src/object_dictionary.h ../src/xpath.h \
- ../src/config_options.h ../src/update_manager.h \
+ ../src/mxml/xml_to_json.h ../src/cached_url.h ../src/reentrant_array.h \
+ ../src/executor.h ../src/config_manager.h ../src/object_dictionary.h \
+ ../src/xpath.h ../src/config_options.h ../src/update_manager.h \
  ../src/string_converter.h /usr/include/iconv.h ../src/metadata_handler.h \
  ../src/session_manager.h ../src/layout/fallback_layout.h \
- ../src/layout/layout.h ../src/filesystem.h ../src/process.h
+ ../src/layout/layout.h ../src/filesystem.h ../src/process.h \
+ ../src/youtube_service.h ../src/url.h \
+ /usr/include/arm-linux-gnueabihf/curl/curl.h \
+ /usr/include/arm-linux-gnueabihf/curl/curlver.h \
+ /usr/include/arm-linux-gnueabihf/curl/curlbuild.h \
+ /usr/include/inttypes.h \
+ /usr/include/arm-linux-gnueabihf/curl/curlrules.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/curl/easy.h \
+ /usr/include/arm-linux-gnueabihf/curl/multi.h \
+ /usr/include/arm-linux-gnueabihf/curl/curl.h \
+ ../src/youtube_content_handler.h ../src/task_processor.h
 
 /usr/include/stdc-predef.h:
 
@@ -346,6 +362,8 @@ libmediatomb_a-content_manager.o: ../src/content_manager.cc \
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
 
+/usr/include/magic.h:
+
 ../src/content_manager.h:
 
 ../src/storage.h:
@@ -400,9 +418,7 @@ libmediatomb_a-content_manager.o: ../src/content_manager.cc \
 
 ../src/object_dictionary.h:
 
-../src/executor.h:
-
-../src/config_manager.h:
+../src/online_service.h:
 
 ../src/mxml/mxml.h:
 
@@ -434,6 +450,14 @@ libmediatomb_a-content_manager.o: ../src/content_manager.cc \
 
 ../src/mxml/xml_to_json.h:
 
+../src/cached_url.h:
+
+../src/reentrant_array.h:
+
+../src/executor.h:
+
+../src/config_manager.h:
+
 ../src/object_dictionary.h:
 
 ../src/xpath.h:
@@ -457,3 +481,37 @@ libmediatomb_a-content_manager.o: ../src/content_manager.cc \
 ../src/filesystem.h:
 
 ../src/process.h:
+
+../src/youtube_service.h:
+
+../src/url.h:
+
+/usr/include/arm-linux-gnueabihf/curl/curl.h:
+
+/usr/include/arm-linux-gnueabihf/curl/curlver.h:
+
+/usr/include/arm-linux-gnueabihf/curl/curlbuild.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/arm-linux-gnueabihf/curl/curlrules.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/arm-linux-gnueabihf/bits/posix2_lim.h:
+
+/usr/include/arm-linux-gnueabihf/bits/xopen_lim.h:
+
+/usr/include/arm-linux-gnueabihf/curl/easy.h:
+
+/usr/include/arm-linux-gnueabihf/curl/multi.h:
+
+/usr/include/arm-linux-gnueabihf/curl/curl.h:
+
+../src/youtube_content_handler.h:
+
+../src/task_processor.h:

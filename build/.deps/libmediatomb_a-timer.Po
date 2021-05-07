@@ -73,7 +73,7 @@ libmediatomb_a-timer.o: ../src/timer.cc /usr/include/stdc-predef.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h ../src/cds_objects.h \
  ../src/dictionary.h ../src/cds_resource.h \
- /usr/include/arm-linux-gnueabihf/sys/time.h
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/magic.h
 
 /usr/include/stdc-predef.h:
 
@@ -314,3 +314,5 @@ libmediatomb_a-timer.o: ../src/timer.cc /usr/include/stdc-predef.h \
 ../src/cds_resource.h:
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
+
+/usr/include/magic.h:

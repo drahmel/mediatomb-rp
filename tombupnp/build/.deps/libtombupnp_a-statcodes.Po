@@ -12,9 +12,7 @@ libtombupnp_a-statcodes.o: ../upnp/src/genlib/net/http/statcodes.c \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
- /usr/include/arm-linux-gnueabihf/bits/stdio.h /usr/include/string.h \
- /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/bits/string.h \
- /usr/include/arm-linux-gnueabihf/bits/string2.h /usr/include/stdlib.h \
+ /usr/include/string.h /usr/include/xlocale.h \
  ../../tombupnp/upnp/src/inc/util.h ../../tombupnp/upnp/inc/upnp.h \
  ../../tombupnp/ixml/inc/ixml.h /usr/include/assert.h \
  ../../tombupnp/upnp/inc/upnpconfig.h /usr/include/netinet/in.h \
@@ -79,17 +77,9 @@ libtombupnp_a-statcodes.o: ../upnp/src/genlib/net/http/statcodes.c \
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
 
-/usr/include/arm-linux-gnueabihf/bits/stdio.h:
-
 /usr/include/string.h:
 
 /usr/include/xlocale.h:
-
-/usr/include/arm-linux-gnueabihf/bits/string.h:
-
-/usr/include/arm-linux-gnueabihf/bits/string2.h:
-
-/usr/include/stdlib.h:
 
 ../../tombupnp/upnp/src/inc/util.h:
 

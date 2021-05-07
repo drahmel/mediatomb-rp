@@ -76,16 +76,17 @@ libmediatomb_a-update_manager.o: ../src/update_manager.cc \
  /usr/include/asm-generic/sockios.h \
  /usr/include/arm-linux-gnueabihf/bits/in.h ../src/cds_objects.h \
  ../src/dictionary.h ../src/cds_resource.h \
- /usr/include/arm-linux-gnueabihf/sys/time.h ../src/hash/dso_hash.h \
- ../src/upnp_cds.h ../src/action_request.h ../src/mxml/mxml.h \
- ../src/zmmf/zmmf.h ../src/mxml/attribute.h ../src/mxml/mxml.h \
- ../src/mxml/context.h ../src/mxml/node.h ../src/mxml/element.h \
- ../src/mxml/document.h ../src/mxml/xml_text.h ../src/mxml/comment.h \
- ../src/mxml/parseexception.h ../src/mxml/parser.h /usr/include/expat.h \
- /usr/include/expat_external.h ../src/zmmf/object_stack.h \
- ../src/mxml/xml_to_json.h ../src/subscription_request.h ../src/storage.h \
- ../src/autoscan.h ../src/timer.h ../src/zmm/zmm.h ../src/tools.h \
- /usr/include/signal.h /usr/include/arm-linux-gnueabihf/bits/signum.h \
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/magic.h \
+ ../src/hash/dso_hash.h ../src/upnp_cds.h ../src/action_request.h \
+ ../src/mxml/mxml.h ../src/zmmf/zmmf.h ../src/mxml/attribute.h \
+ ../src/mxml/mxml.h ../src/mxml/context.h ../src/mxml/node.h \
+ ../src/mxml/element.h ../src/mxml/document.h ../src/mxml/xml_text.h \
+ ../src/mxml/comment.h ../src/mxml/parseexception.h ../src/mxml/parser.h \
+ /usr/include/expat.h /usr/include/expat_external.h \
+ ../src/zmmf/object_stack.h ../src/mxml/xml_to_json.h \
+ ../src/subscription_request.h ../src/storage.h ../src/autoscan.h \
+ ../src/timer.h ../src/zmm/zmm.h ../src/tools.h /usr/include/signal.h \
+ /usr/include/arm-linux-gnueabihf/bits/signum.h \
  /usr/include/arm-linux-gnueabihf/bits/siginfo.h \
  /usr/include/arm-linux-gnueabihf/bits/sigaction.h \
  /usr/include/arm-linux-gnueabihf/bits/sigcontext.h \
@@ -347,6 +348,8 @@ libmediatomb_a-update_manager.o: ../src/update_manager.cc \
 ../src/cds_resource.h:
 
 /usr/include/arm-linux-gnueabihf/sys/time.h:
+
+/usr/include/magic.h:
 
 ../src/hash/dso_hash.h:
 
