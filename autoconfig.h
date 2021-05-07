@@ -23,13 +23,13 @@
 #define AUTO_CREATE_DATABASE 1
 
 /* ffmpeg/avformat.h */
-/* #undef AVFORMAT_INCLUDE */
+#define AVFORMAT_INCLUDE <libavformat/avformat.h>
 
 /* Define to 1 if the `closedir' function returns void instead of `int'. */
 /* #undef CLOSEDIR_VOID */
 
 /* compile option summary */
-#define COMPILE_INFO "\thost:\t\t\tarmv7l-unknown-linux-gnueabi\n\tsqlite3:\t\tyes\n\tmysql:\t\t\tmissing\n\tlibjs:\t\t\tmissing\n\tlibmagic:\t\tmissing\n\tinotify:\t\tyes\n\tlibexif:\t\tmissing\n\tid3lib:\t\t\tdisabled\n\ttaglib:\t\t\tmissing\n\tffmpeg\t\t\tmissing\n\tlibmp4v2:\t\tmissing\n\texternal transcoding:\tyes\n\tcurl:\t\t\tmissing\n\tYouTube:\t\tmissing\n\tlibextractor\t\tdisabled\n\tdb-autocreate:\t\tyes\n\tdebug log:\t\tyes\n\tprotocol info extension:yes\n\tffmpegthumbnailer:\tmissing\n\tlastfmlib:\t\tmissing\n\tdata directory:\t\t/usr/local/share/mediatomb"
+#define COMPILE_INFO "\thost:\t\t\tarmv7l-unknown-linux-gnueabi\n\tsqlite3:\t\tyes\n\tmysql:\t\t\tyes\n\tlibjs:\t\t\tmissing\n\tlibmagic:\t\tyes\n\tinotify:\t\tyes\n\tlibexif:\t\tyes\n\tid3lib:\t\t\tdisabled\n\ttaglib:\t\t\tyes\n\tffmpeg\t\t\tyes\n\tlibmp4v2:\t\tyes\n\texternal transcoding:\tyes\n\tcurl:\t\t\tyes\n\tYouTube:\t\tyes\n\tlibextractor\t\tdisabled\n\tdb-autocreate:\t\tyes\n\tdebug log:\t\tyes\n\tprotocol info extension:yes\n\tffmpegthumbnailer:\tyes\n\tlastfmlib:\t\tmissing\n\tdata directory:\t\t/usr/local/share/mediatomb"
 
 /* Define to one of `_getb67', `GETB67', `getb67' for Cray-2 and Cray-YMP
    systems. This function is required for `alloca.c' support on those systems.
@@ -59,7 +59,7 @@
 /* #undef EXIF_EGV_1 */
 
 /* exif_entry_get_value() has 3 parameters */
-/* #undef EXIF_EGV_3 */
+#define EXIF_EGV_3 1
 
 /* This is required for Playstation 3 support, it adds certain tags to the
    protocolInfo attribute */
@@ -82,10 +82,10 @@
 #define HAVE_ARPA_INET_H 1
 
 /* Define to 1 if you have the <attachedpictureframe.h> header file. */
-/* #undef HAVE_ATTACHEDPICTUREFRAME_H */
+#define HAVE_ATTACHEDPICTUREFRAME_H 1
 
 /* Define to 1 if you have the <audioproperties.h> header file. */
-/* #undef HAVE_AUDIOPROPERTIES_H */
+#define HAVE_AUDIOPROPERTIES_H 1
 
 /* Define to 1 if you have the `backtrace' function. */
 #define HAVE_BACKTRACE 1
@@ -97,10 +97,10 @@
 #define HAVE_CTYPE_H 1
 
 /* curl library presence */
-/* #undef HAVE_CURL */
+#define HAVE_CURL 1
 
 /* Define to 1 if you have the <curl/curl.h> header file. */
-/* #undef HAVE_CURL_CURL_H */
+#define HAVE_CURL_CURL_H 1
 
 /* Define to 1 if you have the declaration of `strerror_r', and to 0 if you
    don't. */
@@ -123,13 +123,13 @@
 #define HAVE_FCNTL_H 1
 
 /* FFMPEG library presence */
-/* #undef HAVE_FFMPEG */
+#define HAVE_FFMPEG 1
 
 /* ffmpegthumbnailer library presence */
-/* #undef HAVE_FFMPEGTHUMBNAILER */
+#define HAVE_FFMPEGTHUMBNAILER 1
 
 /* Define to 1 if you have the <fileref.h> header file. */
-/* #undef HAVE_FILEREF_H */
+#define HAVE_FILEREF_H 1
 
 /* Define to 1 if you have the `fork' function. */
 #define HAVE_FORK 1
@@ -159,7 +159,7 @@
 /* #undef HAVE_ID3LIB */
 
 /* this version of id3lib has album art support */
-/* #undef HAVE_ID3_ALBUMART */
+#define HAVE_ID3_ALBUMART 1
 
 /* Define to 1 if you have the `if_freenameindex' function. */
 #define HAVE_IF_FREENAMEINDEX 1
@@ -195,10 +195,10 @@
 /* #undef HAVE_LIB */
 
 /* Define to 1 if you have the `curl' library (-lcurl). */
-/* #undef HAVE_LIBCURL */
+#define HAVE_LIBCURL 1
 
 /* libexif library presence */
-/* #undef HAVE_LIBEXIF */
+#define HAVE_LIBEXIF 1
 
 /* libextractor library presence */
 /* #undef HAVE_LIBEXTRACTOR */
@@ -210,10 +210,10 @@
 /* #undef HAVE_LIBLWRES */
 
 /* libmagic library presence */
-/* #undef HAVE_LIBMAGIC */
+#define HAVE_LIBMAGIC 1
 
 /* libmp4v2 library presence */
-/* #undef HAVE_LIBMP4V2 */
+#define HAVE_LIBMP4V2 1
 
 /* Define to 1 if you have the `nsl' library (-lnsl). */
 /* #undef HAVE_LIBNSL */
@@ -222,7 +222,7 @@
 /* #undef HAVE_LIBSOCKET */
 
 /* Define to 1 if you have the `tag' library (-ltag). */
-/* #undef HAVE_LIBTAG */
+#define HAVE_LIBTAG 1
 
 /* Define to 1 if you have the <limits.h> header file. */
 #define HAVE_LIMITS_H 1
@@ -240,7 +240,7 @@
 /* #undef HAVE_LWRES_NETDB_H */
 
 /* filemagic library presence */
-/* #undef HAVE_MAGIC */
+#define HAVE_MAGIC 1
 
 /* Define to 1 if you have the `main' function. */
 /* #undef HAVE_MAIN */
@@ -268,22 +268,22 @@
 /* #undef HAVE_MP4_GET_METADATA_COVER_ART_COUNT */
 
 /* this version of libmp4 has MP4GetTrackAudioChannels support */
-/* #undef HAVE_MP4_GET_TRACK_AUDIO_CHANNELS */
+#define HAVE_MP4_GET_TRACK_AUDIO_CHANNELS 1
 
 /* MySQL library presence */
-/* #undef HAVE_MYSQL */
+#define HAVE_MYSQL 1
 
 /* Define to 1 if you have the <mysql.h> header file. */
-/* #undef HAVE_MYSQL_H */
+#define HAVE_MYSQL_H 1
 
 /* Define to 1 if you have the `mysql_init' function. */
-/* #undef HAVE_MYSQL_INIT */
+#define HAVE_MYSQL_INIT 1
 
 /* MYSQL_OPT_RECONNECT parameter available */
-/* #undef HAVE_MYSQL_OPT_RECONNECT */
+#define HAVE_MYSQL_OPT_RECONNECT 1
 
 /* Define to 1 if you have the `mysql_stmt_init' function. */
-/* #undef HAVE_MYSQL_STMT_INIT */
+#define HAVE_MYSQL_STMT_INIT 1
 
 /* Define to 1 if you have the <ndir.h> header file, and it defines `DIR'. */
 /* #undef HAVE_NDIR_H */
@@ -437,16 +437,16 @@
 #define HAVE_SYS_WAIT_H 1
 
 /* taglib library presence */
-/* #undef HAVE_TAGLIB */
+#define HAVE_TAGLIB 1
 
 /* Define to 1 if you have the <taglib.h> header file. */
-/* #undef HAVE_TAGLIB_H */
+#define HAVE_TAGLIB_H 1
 
 /* Define to 1 if you have the <tag.h> header file. */
-/* #undef HAVE_TAG_H */
+#define HAVE_TAG_H 1
 
 /* Define to 1 if you have the <textidentificationframe.h> header file. */
-/* #undef HAVE_TEXTIDENTIFICATIONFRAME_H */
+#define HAVE_TEXTIDENTIFICATIONFRAME_H 1
 
 /* Define to 1 if you have the <time.h> header file. */
 #define HAVE_TIME_H 1
@@ -461,7 +461,7 @@
 #define HAVE_TOUPPER 1
 
 /* Define to 1 if you have the <tstring.h> header file. */
-/* #undef HAVE_TSTRING_H */
+#define HAVE_TSTRING_H 1
 
 /* Define to 1 if you have the `uname' function. */
 #define HAVE_UNAME 1
@@ -497,7 +497,7 @@
 /* #undef JS_THREADSAFE */
 
 /* $MP4_HEADER.h */
-/* #undef LIBMP4V2_INCLUDE */
+#define LIBMP4V2_INCLUDE <mp4v2/mp4v2.h>
 
 /* if defined compile with log output */
 #define LOG_ENABLED 1
@@ -516,7 +516,7 @@
 /* #undef NO_MINUS_C_MINUS_O */
 
 /* at least one online service is supported */
-/* #undef ONLINE_SERVICES */
+#define ONLINE_SERVICES 1
 
 /* Name of package */
 #define PACKAGE "mediatomb"
@@ -648,7 +648,7 @@
 #endif
 
 /* Enable support for the YouTube service */
-/* #undef YOUTUBE */
+#define YOUTUBE 1
 
 /* Number of bits in a file offset, on hosts where this is settable. */
 #define _FILE_OFFSET_BITS 64

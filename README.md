@@ -34,20 +34,48 @@ CONFIGURATION SUMMARY ----
 sqlite3               : yes
 mysql                 : missing
 libjs                 : missing
+
 libmagic              : missing
+    apt-get install -y libmagic-dev
 inotify               : yes
-libexif               : missing
+    libexif               : missing
+    apt-get install -y libexif-dev
 id3lib                : disabled
+
 taglib                : missing
+    apt-get install -y libtag-extras-dev
+
 libmp4v2              : missing
+
 ffmpeg                : missing
 ffmpegthumbnailer     : missing
+    apt install ffmpegthumbnailer libffmpegthumbnailer-dev libffmpegthumbnailer4v5 libavutil-dev libavformat-dev
+
 lastfmlib             : missing
+    apt-get install -y liblastfm-dev
 external transcoding  : yes
-curl                  : missing
+
+curl                  : missing -- apt install libcurl3
 YouTube               : missing
+    libcurl4-gnutls-dev
 libextractor          : disabled
 db-autocreate         : yes
+libmp4v2              : missing
+    libmp4v2-dev
+mysql                 : missing
+    apt-get install libmariadbclient-dev
+
+
+-------------------- Not working
+id3lib                : disabled
+    apt-get install -y libid3-3.8.3-dev libid3-tools
+libjs                 : missing
+     apt install libmozjs-24-dev
+     apt install -y libmozjs-24-0 libmozjs-24-bin
+     update-alternatives --install /usr/bin/js js /usr/bin/js24 10
+lastfmlib             : missing
+libextractor          : disabled
+
 
 ## First make error
 
