@@ -11,6 +11,7 @@ libmediatomb_a-object.o: ../src/zmm/object.cc /usr/include/stdc-predef.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h \
  /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
  /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
  /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
@@ -29,6 +30,7 @@ libmediatomb_a-object.o: ../src/zmm/object.cc /usr/include/stdc-predef.h \
  /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
  /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
  /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h ../src/zmm/object.h \
  /usr/include/c++/6/new /usr/include/c++/6/exception \
  /usr/include/c++/6/bits/atomic_lockfree_defines.h \
@@ -76,6 +78,8 @@ libmediatomb_a-object.o: ../src/zmm/object.cc /usr/include/stdc-predef.h \
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
 
+/usr/include/arm-linux-gnueabihf/bits/stdio.h:
+
 /usr/include/c++/6/stdlib.h:
 
 /usr/include/c++/6/cstdlib:
@@ -119,6 +123,8 @@ libmediatomb_a-object.o: ../src/zmm/object.cc /usr/include/stdc-predef.h \
 /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h:
 
 /usr/include/alloca.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
 
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 

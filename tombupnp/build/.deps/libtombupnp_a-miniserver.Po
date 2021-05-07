@@ -59,11 +59,14 @@ libtombupnp_a-miniserver.o: ../upnp/src/genlib/miniserver/miniserver.c \
  /usr/include/wchar.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
- /usr/include/stdlib.h /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h /usr/include/stdlib.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
- /usr/include/string.h ../../tombupnp/upnp/src/inc/ssdplib.h \
- /usr/include/setjmp.h /usr/include/fcntl.h \
- /usr/include/arm-linux-gnueabihf/bits/fcntl.h \
+ /usr/include/string.h /usr/include/arm-linux-gnueabihf/bits/string.h \
+ /usr/include/arm-linux-gnueabihf/bits/string2.h \
+ ../../tombupnp/upnp/src/inc/ssdplib.h /usr/include/setjmp.h \
+ /usr/include/fcntl.h /usr/include/arm-linux-gnueabihf/bits/fcntl.h \
  /usr/include/arm-linux-gnueabihf/bits/fcntl-linux.h \
  /usr/include/arm-linux-gnueabihf/bits/stat.h \
  ../../tombupnp/upnp/src/inc/httpparser.h \
@@ -251,13 +254,21 @@ libtombupnp_a-miniserver.o: ../upnp/src/genlib/miniserver/miniserver.c \
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
 
+/usr/include/arm-linux-gnueabihf/bits/stdio.h:
+
 /usr/include/stdlib.h:
 
 /usr/include/alloca.h:
 
+/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
+
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 
 /usr/include/string.h:
+
+/usr/include/arm-linux-gnueabihf/bits/string.h:
+
+/usr/include/arm-linux-gnueabihf/bits/string2.h:
 
 ../../tombupnp/upnp/src/inc/ssdplib.h:
 

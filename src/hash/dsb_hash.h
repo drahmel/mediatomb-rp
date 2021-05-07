@@ -1,29 +1,29 @@
 /*MT*
-    
+
     MediaTomb - http://www.mediatomb.cc/
-    
+
     dsb_hash.h - this file is part of MediaTomb.
-    
+
     Copyright (C) 2005 Gena Batyan <bgeradz@mediatomb.cc>,
                        Sergey 'Jin' Bostandzhyan <jin@mediatomb.cc>
-    
+
     Copyright (C) 2006-2010 Gena Batyan <bgeradz@mediatomb.cc>,
                             Sergey 'Jin' Bostandzhyan <jin@mediatomb.cc>,
                             Leonhard Wimmer <leo@mediatomb.cc>
-    
+
     MediaTomb is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License version 2
     as published by the Free Software Foundation.
-    
+
     MediaTomb is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
-    
+
     You should have received a copy of the GNU General Public License
     version 2 along with MediaTomb; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
-    
+
     $Id: dsb_hash.h 2081 2010-03-23 20:18:00Z lww $
 */
 
@@ -64,7 +64,7 @@ public:
                 slot->key->release();
         }
     }
-    
+
     /* virtual methods */
     virtual int hashCode(zmm::String key)
     {
@@ -78,18 +78,18 @@ public:
     {
         return (slot->key == NULL);
     }
-    
+
     void clear()
     {
         releaseData();
         this->zero();
     }
-    
+
     /* #error need to use deleted key
     inline bool remove(zmm::String key)
     {
         struct dsb_hash_slot<VT> *slot;
-        if (! search(key, &slot))
+        if (! this->search(key, &slot))
             return false;
         slot->key->release();
         slot->key = NULL;
@@ -97,11 +97,11 @@ public:
         return true;
     }
     */
-    
+
     inline void put(zmm::String key, VT value)
     {
         struct dsb_hash_slot<VT> *slot;
-        search(key, &slot);
+        this->search(key, &slot);
         put(key, (hash_slot_t)slot, value);
     }
     void put(zmm::String key, hash_slot_t destSlot, VT value)
@@ -116,25 +116,25 @@ public:
             keyBase->retain();
             slot->key = keyBase;
             slot->value = value;
-        }    
+        }
     }
 
     inline VT get(zmm::String key)
     {
         struct dsb_hash_slot<VT> *slot;
-        bool found = search(key, &slot);
+        bool found = this->search(key, &slot);
         if (found)
             return slot->value;
         else
             return nil;
-        
+
         hash_slot_t destSlot;
         return get(key, destSlot);
     }
     inline VT get(zmm::String key, hash_slot_t *destSlot)
     {
         struct dsb_hash_slot<VT> **slot = (struct dsb_hash_slot<VT> **)destSlot;
-        bool found = search(key, slot);
+        bool found = this->search(key, slot);
         if (found)
             return (*slot)->value;
         else

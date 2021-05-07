@@ -22,6 +22,7 @@ libtombupnp_a-upnp_timeout.o: ../upnp/src/genlib/util/upnp_timeout.c \
  /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
  /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
  /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h
 
 /usr/include/stdc-predef.h:
@@ -79,5 +80,7 @@ libtombupnp_a-upnp_timeout.o: ../upnp/src/genlib/util/upnp_timeout.c \
 /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h:
 
 /usr/include/alloca.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
 
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:

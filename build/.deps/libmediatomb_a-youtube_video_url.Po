@@ -40,6 +40,7 @@ libmediatomb_a-youtube_video_url.o: ../src/youtube_video_url.cc \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
@@ -67,6 +68,7 @@ libmediatomb_a-youtube_video_url.o: ../src/youtube_video_url.cc \
  /usr/include/c++/6/cstdlib /usr/include/stdlib.h \
  /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
  /usr/include/arm-linux-gnueabihf/bits/waitstatus.h /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
  /usr/include/string.h /usr/include/unistd.h \
  /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
@@ -197,6 +199,8 @@ libmediatomb_a-youtube_video_url.o: ../src/youtube_video_url.cc \
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
 
+/usr/include/arm-linux-gnueabihf/bits/stdio.h:
+
 /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h:
 
 /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h:
@@ -272,6 +276,8 @@ libmediatomb_a-youtube_video_url.o: ../src/youtube_video_url.cc \
 /usr/include/arm-linux-gnueabihf/bits/waitstatus.h:
 
 /usr/include/alloca.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
 
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 

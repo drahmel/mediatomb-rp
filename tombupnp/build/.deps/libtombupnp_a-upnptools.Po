@@ -14,9 +14,12 @@ libtombupnp_a-upnptools.o: ../upnp/src/api/upnptools.c \
  /usr/include/_G_config.h /usr/include/wchar.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h \
  ../../tombupnp/ixml/inc/ixml.h /usr/include/string.h \
- /usr/include/xlocale.h /usr/include/assert.h \
- ../../tombupnp/upnp/inc/upnpconfig.h /usr/include/netinet/in.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/bits/string.h \
+ /usr/include/arm-linux-gnueabihf/bits/string2.h /usr/include/stdlib.h \
+ /usr/include/assert.h ../../tombupnp/upnp/inc/upnpconfig.h \
+ /usr/include/netinet/in.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
  /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
  /usr/include/arm-linux-gnueabihf/sys/socket.h \
@@ -47,9 +50,9 @@ libtombupnp_a-upnptools.o: ../upnp/src/api/upnptools.c \
  /usr/include/arm-linux-gnueabihf/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/arm-linux-gnueabihf/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/ctype.h /usr/include/stdlib.h \
- /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/ctype.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
  /usr/include/arm-linux-gnueabihf/bits/waitstatus.h /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
  /usr/include/arpa/inet.h /usr/include/unistd.h \
  /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
@@ -100,11 +103,19 @@ libtombupnp_a-upnptools.o: ../upnp/src/api/upnptools.c \
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
 
+/usr/include/arm-linux-gnueabihf/bits/stdio.h:
+
 ../../tombupnp/ixml/inc/ixml.h:
 
 /usr/include/string.h:
 
 /usr/include/xlocale.h:
+
+/usr/include/arm-linux-gnueabihf/bits/string.h:
+
+/usr/include/arm-linux-gnueabihf/bits/string2.h:
+
+/usr/include/stdlib.h:
 
 /usr/include/assert.h:
 
@@ -188,13 +199,13 @@ libtombupnp_a-upnptools.o: ../upnp/src/api/upnptools.c \
 
 /usr/include/ctype.h:
 
-/usr/include/stdlib.h:
-
 /usr/include/arm-linux-gnueabihf/bits/waitflags.h:
 
 /usr/include/arm-linux-gnueabihf/bits/waitstatus.h:
 
 /usr/include/alloca.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
 
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 

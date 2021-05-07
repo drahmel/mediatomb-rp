@@ -23,8 +23,11 @@ gen_uuid.o: ../src/uuid/gen_uuid.c /usr/include/stdc-predef.h \
  /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
  /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
  /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
- /usr/include/string.h /usr/include/xlocale.h /usr/include/fcntl.h \
+ /usr/include/string.h /usr/include/xlocale.h \
+ /usr/include/arm-linux-gnueabihf/bits/string.h \
+ /usr/include/arm-linux-gnueabihf/bits/string2.h /usr/include/fcntl.h \
  /usr/include/arm-linux-gnueabihf/bits/fcntl.h \
  /usr/include/arm-linux-gnueabihf/bits/fcntl-linux.h \
  /usr/include/arm-linux-gnueabihf/bits/stat.h /usr/include/errno.h \
@@ -119,11 +122,17 @@ gen_uuid.o: ../src/uuid/gen_uuid.c /usr/include/stdc-predef.h \
 
 /usr/include/alloca.h:
 
+/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
+
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 
 /usr/include/string.h:
 
 /usr/include/xlocale.h:
+
+/usr/include/arm-linux-gnueabihf/bits/string.h:
+
+/usr/include/arm-linux-gnueabihf/bits/string2.h:
 
 /usr/include/fcntl.h:
 

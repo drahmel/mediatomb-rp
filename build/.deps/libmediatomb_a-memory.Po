@@ -10,7 +10,8 @@ libmediatomb_a-memory.o: ../src/memory.cc /usr/include/stdc-predef.h \
  /usr/include/_G_config.h /usr/include/wchar.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
- /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h ../src/memory.h \
+ /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h ../src/memory.h \
  /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
  /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
  /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
@@ -29,6 +30,7 @@ libmediatomb_a-memory.o: ../src/memory.cc /usr/include/stdc-predef.h \
  /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
  /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
  /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h
 
 /usr/include/stdc-predef.h:
@@ -64,6 +66,8 @@ libmediatomb_a-memory.o: ../src/memory.cc /usr/include/stdc-predef.h \
 /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdio.h:
 
 ../src/memory.h:
 
@@ -110,5 +114,7 @@ libmediatomb_a-memory.o: ../src/memory.cc /usr/include/stdc-predef.h \
 /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h:
 
 /usr/include/alloca.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
 
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:

@@ -1,29 +1,29 @@
 /*MT*
-    
+
     MediaTomb - http://www.mediatomb.cc/
-    
+
     dbr_hash.h - this file is part of MediaTomb.
-    
+
     Copyright (C) 2005 Gena Batyan <bgeradz@mediatomb.cc>,
                        Sergey 'Jin' Bostandzhyan <jin@mediatomb.cc>
-    
+
     Copyright (C) 2006-2010 Gena Batyan <bgeradz@mediatomb.cc>,
                             Sergey 'Jin' Bostandzhyan <jin@mediatomb.cc>,
                             Leonhard Wimmer <leo@mediatomb.cc>
-    
+
     MediaTomb is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License version 2
     as published by the Free Software Foundation.
-    
+
     MediaTomb is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
-    
+
     You should have received a copy of the GNU General Public License
     version 2 along with MediaTomb; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
-    
+
     $Id: dbr_hash.h 2081 2010-03-23 20:18:00Z lww $
 */
 
@@ -78,33 +78,33 @@ public:
         data_array = (KT *)MALLOC(realCapacity * sizeof(KT));
         clear();
     }
-    
+
     virtual ~DBRHash()
     {
         FREE(data_array);
     }
-    
+
     /* virtual methods */
     virtual int hashCode(KT key)
     {
         return this->baseTypeHashCode((unsigned int)key);
     }
-    
+
     virtual bool match(KT key, struct dbr_hash_slot<KT> *slot)
     {
        return (key == slot->key);
     }
-    
+
     virtual bool isEmptySlot(struct dbr_hash_slot<KT> *slot)
     {
         return (slot->key == emptyKey);
     }
-    
+
     virtual bool isDeletedSlot(struct dbr_hash_slot<KT> *slot)
     {
         return (slot->key == deletedKey);
     }
-    
+
     void clear()
     {
         if (! emptyKey)
@@ -120,11 +120,11 @@ public:
             this->count = 0;
         }
     }
-    
+
     inline bool remove(KT key)
     {
         struct dbr_hash_slot<KT> *slot;
-        if (! search(key, &slot))
+        if (! this->search(key, &slot))
             return false;
         slot->key = deletedKey;
         int array_slot = slot->array_slot;
@@ -134,7 +134,7 @@ public:
             return true;
         }
         data_array[array_slot] = data_array[--this->count];
-        if (! search(data_array[array_slot], &slot))
+        if (! this->search(data_array[array_slot], &slot))
         {
             log_debug("DBR-Hash-Error: (%d; array_slot=%d; count=%d)\n", data_array[array_slot], array_slot, this->count);
             throw zmm::Exception(_("DBR-Hash-Error: key in data_array not found in hashtable"));
@@ -142,11 +142,11 @@ public:
         slot->array_slot = array_slot;
         return true;
     }
-    
+
     inline void put(KT key)
     {
         struct dbr_hash_slot<KT> *slot;
-        if (! search(key, &slot))
+        if (! this->search(key, &slot))
         {
 #ifdef TOMBDEBUG
             if (this->count >= realCapacity)
@@ -157,14 +157,14 @@ public:
             data_array[this->count++] = key;
         }
     }
-    
+
     /// \brief returns all keys as an array. After the deletion of the DBRHash object, the array is invalid!
     inline void getAll(hash_data_array_t<KT> *hash_data_array)
     {
         hash_data_array->size = this->count;
         hash_data_array->data = data_array;
     }
-    
+
     zmm::String debugGetAll()
     {
         zmm::Ref<zmm::StringBuffer> buf(new zmm::StringBuffer());
@@ -177,7 +177,7 @@ public:
         }
         return buf->toString();
     }
-    
+
     /*
      * is this really needed? seems so make no sense...
     inline void put(KT key, hash_slot_t destSlot)
@@ -190,19 +190,19 @@ public:
         }
     }
     */
-    
+
     inline bool exists(KT key)
     {
         struct dbr_hash_slot<KT> *slot;
-        return search(key, &slot);
+        return this->search(key, &slot);
     }
-    
+
     /*
      * unneded, i think...
-     
+
     inline bool exists(KT key, hash_slot_t *destSlot)
     {
-        return search(key, (KT **)destSlot);
+        return this->search(key, (KT **)destSlot);
     }
     */
 };

@@ -12,6 +12,7 @@ libmediatomb_a-stringbuffer.o: ../src/zmm/stringbuffer.cc \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h \
  /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
  /usr/include/arm-linux-gnueabihf/c++/6/bits/c++config.h \
  /usr/include/arm-linux-gnueabihf/c++/6/bits/os_defines.h \
@@ -30,6 +31,7 @@ libmediatomb_a-stringbuffer.o: ../src/zmm/stringbuffer.cc \
  /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
  /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
  /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
  /usr/include/string.h /usr/include/unistd.h \
  /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
@@ -91,6 +93,8 @@ libmediatomb_a-stringbuffer.o: ../src/zmm/stringbuffer.cc \
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
 
+/usr/include/arm-linux-gnueabihf/bits/stdio.h:
+
 /usr/include/c++/6/stdlib.h:
 
 /usr/include/c++/6/cstdlib:
@@ -134,6 +138,8 @@ libmediatomb_a-stringbuffer.o: ../src/zmm/stringbuffer.cc \
 /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h:
 
 /usr/include/alloca.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
 
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 

@@ -39,6 +39,7 @@ libmediatomb_a-transcoding_process_executor.o: \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h \
  /usr/include/c++/6/stdlib.h /usr/include/c++/6/cstdlib \
  /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
  /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
@@ -47,6 +48,7 @@ libmediatomb_a-transcoding_process_executor.o: \
  /usr/include/arm-linux-gnueabihf/bits/select.h \
  /usr/include/arm-linux-gnueabihf/bits/sigset.h \
  /usr/include/arm-linux-gnueabihf/sys/sysmacros.h /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
  /usr/include/string.h ../src/zmm/stringbuffer.h ../src/zmmf/exception.h \
  ../src/zmmf/array.h ../src/logger.h ../src/zmmf/base_array.h \
@@ -170,6 +172,8 @@ libmediatomb_a-transcoding_process_executor.o: \
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
 
+/usr/include/arm-linux-gnueabihf/bits/stdio.h:
+
 /usr/include/c++/6/stdlib.h:
 
 /usr/include/c++/6/cstdlib:
@@ -191,6 +195,8 @@ libmediatomb_a-transcoding_process_executor.o: \
 /usr/include/arm-linux-gnueabihf/sys/sysmacros.h:
 
 /usr/include/alloca.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
 
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 

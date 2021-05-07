@@ -44,11 +44,13 @@ libmediatomb_a-process_io_handler.o: ../src/process_io_handler.cc \
  /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
  /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
  /usr/include/xlocale.h /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h ../src/logger.h \
  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
  /usr/include/wchar.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
- /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h ../src/zmmf/zmmf.h \
+ /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h ../src/zmmf/zmmf.h \
  ../src/zmm/zmm.h ../src/zmm/nil.h ../src/zmm/null.h ../src/zmm/object.h \
  /usr/include/c++/6/new /usr/include/c++/6/exception \
  /usr/include/c++/6/bits/atomic_lockfree_defines.h \
@@ -223,6 +225,8 @@ libmediatomb_a-process_io_handler.o: ../src/process_io_handler.cc \
 
 /usr/include/alloca.h:
 
+/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
+
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 
 ../src/logger.h:
@@ -240,6 +244,8 @@ libmediatomb_a-process_io_handler.o: ../src/process_io_handler.cc \
 /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdio.h:
 
 ../src/zmmf/zmmf.h:
 

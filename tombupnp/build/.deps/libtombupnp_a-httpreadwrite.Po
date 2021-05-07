@@ -13,7 +13,8 @@ libtombupnp_a-httpreadwrite.o: \
  /usr/include/_G_config.h /usr/include/wchar.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
- /usr/include/arpa/inet.h /usr/include/netinet/in.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h /usr/include/arpa/inet.h \
+ /usr/include/netinet/in.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
  /usr/include/stdint.h /usr/include/arm-linux-gnueabihf/bits/wchar.h \
  /usr/include/arm-linux-gnueabihf/sys/socket.h \
@@ -59,10 +60,12 @@ libtombupnp_a-httpreadwrite.o: \
  /usr/include/arm-linux-gnueabihf/bits/stat.h /usr/include/inttypes.h \
  ../../tombupnp/upnp/src/inc/unixutil.h ../../tombupnp/upnp/inc/upnp.h \
  ../../tombupnp/ixml/inc/ixml.h /usr/include/string.h \
- /usr/include/xlocale.h ../../tombupnp/upnp/inc/upnpconfig.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/bits/string.h \
+ /usr/include/arm-linux-gnueabihf/bits/string2.h /usr/include/stdlib.h \
+ ../../tombupnp/upnp/inc/upnpconfig.h \
  ../../tombupnp/upnp/src/inc/upnpapi.h \
- ../../tombupnp/upnp/src/inc/client_table.h /usr/include/stdlib.h \
- /usr/include/alloca.h \
+ ../../tombupnp/upnp/src/inc/client_table.h /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
  ../../tombupnp/upnp/src/inc/uri.h /usr/include/errno.h \
  /usr/include/arm-linux-gnueabihf/bits/errno.h /usr/include/linux/errno.h \
@@ -129,6 +132,8 @@ libtombupnp_a-httpreadwrite.o: \
 /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdio.h:
 
 /usr/include/arpa/inet.h:
 
@@ -246,15 +251,21 @@ libtombupnp_a-httpreadwrite.o: \
 
 /usr/include/xlocale.h:
 
+/usr/include/arm-linux-gnueabihf/bits/string.h:
+
+/usr/include/arm-linux-gnueabihf/bits/string2.h:
+
+/usr/include/stdlib.h:
+
 ../../tombupnp/upnp/inc/upnpconfig.h:
 
 ../../tombupnp/upnp/src/inc/upnpapi.h:
 
 ../../tombupnp/upnp/src/inc/client_table.h:
 
-/usr/include/stdlib.h:
-
 /usr/include/alloca.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
 
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 

@@ -1,29 +1,29 @@
 /*MT*
-    
+
     MediaTomb - http://www.mediatomb.cc/
-    
+
     dbb_hash.h - this file is part of MediaTomb.
-    
+
     Copyright (C) 2005 Gena Batyan <bgeradz@mediatomb.cc>,
                        Sergey 'Jin' Bostandzhyan <jin@mediatomb.cc>
-    
+
     Copyright (C) 2006-2010 Gena Batyan <bgeradz@mediatomb.cc>,
                             Sergey 'Jin' Bostandzhyan <jin@mediatomb.cc>,
                             Leonhard Wimmer <leo@mediatomb.cc>
-    
+
     MediaTomb is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License version 2
     as published by the Free Software Foundation.
-    
+
     MediaTomb is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
-    
+
     You should have received a copy of the GNU General Public License
     version 2 along with MediaTomb; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
-    
+
     $Id: dbb_hash.h 2081 2010-03-23 20:18:00Z lww $
 */
 
@@ -52,7 +52,7 @@ public:
         this->emptyKey = emptyKey;
         clear();
     }
-    
+
     /* virtual methods */
     virtual int hashCode(KT key)
     {
@@ -78,23 +78,23 @@ public:
             this->count = 0;
         }
     }
-    
+
     /* need to use deleted key
     inline bool remove(KT key)
     {
         struct dbb_hash_slot<KT, VT> *slot;
-        if (! search(key, &slot))
+        if (! this->search(key, &slot))
             return false;
         slot->key = emptyKey;
         this->count--;
         return true;
     }
     */
-    
+
     inline void put(KT key, VT value)
     {
         struct dbb_hash_slot<KT, VT> *slot;
-        bool found = search(key, &slot);
+        bool found = this->search(key, &slot);
         if (! found)
         {
             slot->key = key;
@@ -116,7 +116,7 @@ public:
     inline bool get(KT key, VT *value)
     {
         struct dbb_hash_slot<KT, VT> *slot;
-        bool found = search(key, &slot);
+        bool found = this->search(key, &slot);
         if (found)
             *value = slot->value;
         return found;
@@ -124,7 +124,7 @@ public:
     bool get(KT key, hash_slot_t *destSlot, VT *value)
     {
         struct dbb_hash_slot<KT, VT> **slot = (struct dbb_hash_slot<KT, VT> **)destSlot;
-        bool found = search(key, slot);
+        bool found = this->search(key, slot);
         if (found)
             *value = (*slot)->value;
         return found;
@@ -132,11 +132,11 @@ public:
     inline bool exists(KT key)
     {
         struct dbb_hash_slot<KT, VT> *slot;
-        return search(key, &slot);
+        return this->search(key, &slot);
     }
     inline bool exists(KT key, hash_slot_t *destSlot)
     {
-        return search(key, (struct dbb_hash_slot<KT, VT> **)destSlot);
+        return this->search(key, (struct dbb_hash_slot<KT, VT> **)destSlot);
     }
 };
 

@@ -2109,7 +2109,7 @@ configure:16595: $? = 0
 configure:16617: result: yes
 configure:16626: checking for _doprnt
 configure:16682: gcc -o conftest -g -O2   conftest.c  >&5
-/tmp/ccnagCqn.o: In function `main':
+/tmp/ccaQtuqM.o: In function `main':
 /home/drahmel/mediatomb-rp/conftest.c:129: undefined reference to `_doprnt'
 collect2: error: ld returned 1 exit status
 configure:16689: $? = 1
@@ -2939,7 +2939,7 @@ configure: failed program was:
 configure:19933: result: no
 configure:19805: checking whether pthreads work without any flags
 configure:19903: gcc -o conftest -g -O2    conftest.c   >&5
-/tmp/cc0qiZP4.o: In function `main':
+/tmp/ccFU0TRg.o: In function `main':
 /home/drahmel/mediatomb-rp/conftest.c:132: undefined reference to `pthread_join'
 /home/drahmel/mediatomb-rp/conftest.c:133: undefined reference to `__pthread_register_cancel'
 /home/drahmel/mediatomb-rp/conftest.c:134: undefined reference to `pthread_create'

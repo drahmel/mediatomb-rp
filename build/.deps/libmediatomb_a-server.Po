@@ -36,6 +36,7 @@ libmediatomb_a-server.o: ../src/server.cc /usr/include/stdc-predef.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
@@ -58,6 +59,7 @@ libmediatomb_a-server.o: ../src/server.cc /usr/include/stdc-predef.h \
  /usr/include/arm-linux-gnueabihf/c++/6/bits/cpu_defines.h \
  /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
  /usr/include/arm-linux-gnueabihf/bits/waitstatus.h /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h ../src/logger.h \
  ../src/zmmf/zmmf.h ../src/zmm/zmm.h ../src/zmm/nil.h ../src/zmm/null.h \
  ../src/zmm/object.h /usr/include/c++/6/new /usr/include/c++/6/exception \
@@ -201,6 +203,8 @@ libmediatomb_a-server.o: ../src/server.cc /usr/include/stdc-predef.h \
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
 
+/usr/include/arm-linux-gnueabihf/bits/stdio.h:
+
 /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/limits.h:
 
 /usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed/syslimits.h:
@@ -264,6 +268,8 @@ libmediatomb_a-server.o: ../src/server.cc /usr/include/stdc-predef.h \
 /usr/include/arm-linux-gnueabihf/bits/waitstatus.h:
 
 /usr/include/alloca.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
 
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 

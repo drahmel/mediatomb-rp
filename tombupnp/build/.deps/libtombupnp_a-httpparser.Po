@@ -6,8 +6,9 @@ libtombupnp_a-httpparser.o: ../upnp/src/genlib/net/http/httpparser.c \
  /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
  /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h /usr/include/string.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
- /usr/include/xlocale.h /usr/include/ctype.h \
- /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/xlocale.h /usr/include/arm-linux-gnueabihf/bits/string.h \
+ /usr/include/arm-linux-gnueabihf/bits/string2.h /usr/include/stdlib.h \
+ /usr/include/ctype.h /usr/include/arm-linux-gnueabihf/bits/types.h \
  /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/endian.h \
  /usr/include/arm-linux-gnueabihf/bits/endian.h \
  /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
@@ -21,7 +22,7 @@ libtombupnp_a-httpparser.o: ../upnp/src/genlib/net/http/httpparser.c \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  ../../tombupnp/upnp/src/inc/strtoofft.h \
  ../../tombupnp/upnp/inc/upnpconfig.h \
- ../../tombupnp/upnp/src/inc/strintmap.h /usr/include/stdlib.h \
+ ../../tombupnp/upnp/src/inc/strintmap.h \
  /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
  /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
  /usr/include/arm-linux-gnueabihf/sys/types.h /usr/include/time.h \
@@ -32,11 +33,13 @@ libtombupnp_a-httpparser.o: ../upnp/src/genlib/net/http/httpparser.c \
  /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
  /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
  /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
  /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
  ../../tombupnp/upnp/src/inc/util.h ../../tombupnp/upnp/inc/upnp.h \
  /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
  /usr/include/wchar.h /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h \
  ../../tombupnp/ixml/inc/ixml.h ../../tombupnp/upnp/inc/upnpconfig.h \
  /usr/include/netinet/in.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdint.h \
@@ -100,6 +103,12 @@ libtombupnp_a-httpparser.o: ../upnp/src/genlib/net/http/httpparser.c \
 
 /usr/include/xlocale.h:
 
+/usr/include/arm-linux-gnueabihf/bits/string.h:
+
+/usr/include/arm-linux-gnueabihf/bits/string2.h:
+
+/usr/include/stdlib.h:
+
 /usr/include/ctype.h:
 
 /usr/include/arm-linux-gnueabihf/bits/types.h:
@@ -136,8 +145,6 @@ libtombupnp_a-httpparser.o: ../upnp/src/genlib/net/http/httpparser.c \
 
 ../../tombupnp/upnp/src/inc/strintmap.h:
 
-/usr/include/stdlib.h:
-
 /usr/include/arm-linux-gnueabihf/bits/waitflags.h:
 
 /usr/include/arm-linux-gnueabihf/bits/waitstatus.h:
@@ -160,6 +167,8 @@ libtombupnp_a-httpparser.o: ../upnp/src/genlib/net/http/httpparser.c \
 
 /usr/include/alloca.h:
 
+/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
+
 /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
 
 ../../tombupnp/upnp/src/inc/util.h:
@@ -177,6 +186,8 @@ libtombupnp_a-httpparser.o: ../upnp/src/genlib/net/http/httpparser.c \
 /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdio.h:
 
 ../../tombupnp/ixml/inc/ixml.h:
 

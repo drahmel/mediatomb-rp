@@ -145,11 +145,20 @@ webserver.c:(.text+0x634): undefined reference to `get_content_type'
 collect2: error: ld returned 1 exit status
 
 
-
 Commented out and compiled:
 
     // TODO: Fix compile error
     //rc = get_content_type( filename, &info->content_type );
+
+## Third compile
+
+Fixed get_content_type() definition and fixed search errors by adding this-> reference structures. Now compiles without permissive mode if 2 plugins are disabled:
+
+```
+./configure --disable-ffmpeg --disable-libmp4v2
+make
+make install
+```
 
 
 

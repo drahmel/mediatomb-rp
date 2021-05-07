@@ -11,11 +11,14 @@ libtombupnp_a-sysdep.o: ../upnp/src/uuid/sysdep.c \
  /usr/include/arm-linux-gnueabihf/bits/typesizes.h \
  /usr/lib/gcc/arm-linux-gnueabihf/6/include/stddef.h \
  /usr/include/arm-linux-gnueabihf/bits/confname.h /usr/include/getopt.h \
- /usr/include/string.h /usr/include/xlocale.h /usr/include/stdio.h \
- /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
- /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
+ /usr/include/string.h /usr/include/xlocale.h \
+ /usr/include/arm-linux-gnueabihf/bits/string.h \
+ /usr/include/arm-linux-gnueabihf/bits/string2.h /usr/include/stdlib.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/arm-linux-gnueabihf/6/include/stdarg.h \
  /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
  /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio.h \
  ../../tombupnp/upnp/src/inc/sysdep.h \
  /usr/include/arm-linux-gnueabihf/sys/types.h /usr/include/time.h \
  /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
@@ -70,6 +73,12 @@ libtombupnp_a-sysdep.o: ../upnp/src/uuid/sysdep.c \
 
 /usr/include/xlocale.h:
 
+/usr/include/arm-linux-gnueabihf/bits/string.h:
+
+/usr/include/arm-linux-gnueabihf/bits/string2.h:
+
+/usr/include/stdlib.h:
+
 /usr/include/stdio.h:
 
 /usr/include/libio.h:
@@ -83,6 +92,8 @@ libtombupnp_a-sysdep.o: ../upnp/src/uuid/sysdep.c \
 /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
 
 /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdio.h:
 
 ../../tombupnp/upnp/src/inc/sysdep.h:
 
