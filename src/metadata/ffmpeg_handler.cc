@@ -92,6 +92,35 @@ static void addFfmpegMetadataFields(Ref<CdsItem> item, AVFormatContext *pFormatC
 
 	Ref<StringConverter> sc = StringConverter::m2i();
 
+
+	/* Tabs are 4 characters here */
+	typedef struct {const char *avname; metadata_fields_t field;} mapping_t;
+	static const mapping_t mapping[] =
+	{
+		{"title",   M_TITLE},
+		{"artist",  M_ARTIST},
+		{"album",   M_ALBUM},
+		{"date",    M_DATE},
+		{"genre",   M_GENRE},
+		{"comment", M_DESCRIPTION},
+		{"track",   M_TRACKNUMBER},
+		{NULL,      M_MAX},
+	};
+
+	if (!pFormatCtx->metadata)
+		return;
+	for (const mapping_t *m = mapping; m->avname != NULL; m++)
+	{
+		AVMetadataTag *tag = NULL;
+		tag = av_metadata_get(pFormatCtx->metadata, m->avname, NULL, 0);
+		if (tag && tag->value && tag->value[0])
+		{
+			log_debug("Added metadata %s: %s\n", m->avname, tag->value);
+			item->setMetadata(MT_KEYS[m->field].upnp, sc->convert(tag->value));
+		}
+	}
+
+	/*
 	if (strlen(pFormatCtx->title) > 0)
     {
 	    log_debug("Added metadata title: %s\n", pFormatCtx->title);
@@ -134,6 +163,7 @@ static void addFfmpegMetadataFields(Ref<CdsItem> item, AVFormatContext *pFormatC
         item->setMetadata(MT_KEYS[M_TRACKNUMBER].upnp,
                           sc->convert(String::from(pFormatCtx->track)));
 	}
+	*/
 }
 
 // ffmpeg library calls
@@ -181,7 +211,7 @@ static void addFfmpegResourceFields(Ref<CdsItem> item, AVFormatContext *pFormatC
 	for(i=0; i<pFormatCtx->nb_streams; i++)
     {
 		AVStream *st = pFormatCtx->streams[i];
-		if((st != NULL) && (videoset == false) && (st->codec->codec_type == CODEC_TYPE_VIDEO))
+		if((st != NULL) && (videoset == false) && (st->codec->codec_type == AVMEDIA_TYPE_VIDEO))
         {
             if (st->codec->codec_tag > 0)
             {
@@ -212,7 +242,7 @@ static void addFfmpegResourceFields(Ref<CdsItem> item, AVFormatContext *pFormatC
                 *y = st->codec->height;
 			}
 		}
-		if(st->codec->codec_type == CODEC_TYPE_AUDIO)
+		if(st->codec->codec_type == AVMEDIA_TYPE_AUDIO)
         {
 			// Increase number of audiochannels
 			audioch++;
@@ -263,6 +293,7 @@ void FfmpegHandler::fillMetadata(Ref<CdsItem> item)
     av_register_all();
 
     // Open video file
+    /*
     if (av_open_input_file(&pFormatCtx,  item->getLocation().c_str(), NULL, 0, NULL) != 0) {
         return; // Couldn't open file
     }
@@ -274,13 +305,14 @@ void FfmpegHandler::fillMetadata(Ref<CdsItem> item)
         av_close_input_file(pFormatCtx);
         return; // Couldn't find stream information
     }
+    */
 	// Add metadata using ffmpeg library calls
 	addFfmpegMetadataFields(item, pFormatCtx);
 	// Add resources using ffmpeg library calls
 	addFfmpegResourceFields(item, pFormatCtx, &x, &y);
 
     // Close the video file
-    av_close_input_file(pFormatCtx);
+    //av_close_input_file(pFormatCtx);
 }
 
 Ref<IOHandler> FfmpegHandler::serveContent(Ref<CdsItem> item, int resNum, off_t *data_size)

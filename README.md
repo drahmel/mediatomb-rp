@@ -170,6 +170,8 @@ make
 make install
 ```
 
+## 5th compile
 
+Applied Daniel van Vugt (vanvugt)'s patch found here: https://launchpadlibrarian.net/71985647/libav_0.7_support.patch
 
 
